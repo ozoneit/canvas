@@ -1,0 +1,44 @@
+/* line 1, ../../../app/stylesheets/full_assignment.sass */
+.full_assignment_table td {
+  padding: 3px 0px;
+}
+
+/* line 4, ../../../app/stylesheets/full_assignment.sass */
+.lock_date {
+  color: #444444;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+/* line 10, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard .editing_box {
+  display: none;
+}
+/* line 12, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard .editing_td {
+  display: none;
+}
+/* line 14, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard .editing_tr {
+  display: none;
+}
+/* line 16, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard .min_score, .grading_standard .max_score {
+  width: 100px;
+}
+/* line 19, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard.editing .displaying {
+  display: none;
+}
+/* line 21, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard.editing .editing_box {
+  display: block;
+}
+/* line 23, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard.editing td.editing_box {
+  display: table-cell;
+}
+/* line 25, ../../../app/stylesheets/full_assignment.sass */
+.grading_standard.editing tr.editing_box {
+  display: table-row;
+}

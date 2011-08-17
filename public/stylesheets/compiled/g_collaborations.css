@@ -1,0 +1,50 @@
+/* line 2, ../../../app/stylesheets/g_collaborations.sass */
+#collaborator_list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 30px;
+  max-height: 300px;
+  overflow: auto;
+  border: 1px solid #aaaaaa;
+}
+/* line 10, ../../../app/stylesheets/g_collaborations.sass */
+#collaborator_list .collaborator {
+  color: #444444;
+  font-size: 0.8em;
+}
+
+/* line 15, ../../../app/stylesheets/g_collaborations.sass */
+#collaborations .collaboration {
+  background-image: url(/images/google_docs.png);
+  background-repeat: no-repeat;
+  border: 1px solid #aaaaaa;
+  padding: 10px 10px 10px 60px;
+  margin-bottom: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 23, ../../../app/stylesheets/g_collaborations.sass */
+#collaborations .collaboration.etherpad {
+  background-image: url(/images/ether_pad.png);
+  background-position: 5px 20px;
+  padding-left: 85px;
+}
+/* line 28, ../../../app/stylesheets/g_collaborations.sass */
+#collaborations .collaboration .links {
+  float: right;
+  line-height: 0.8em;
+}
+/* line 32, ../../../app/stylesheets/g_collaborations.sass */
+#collaborations .collaboration h3 {
+  font-family: arial, sans-serif;
+  font-size: 1.2em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 37, ../../../app/stylesheets/g_collaborations.sass */
+#collaborations .collaboration .collaborators {
+  display: none;
+}

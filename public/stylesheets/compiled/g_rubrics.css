@@ -1,0 +1,283 @@
+/* line 1, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 99.9%;
+  page-break-inside: avoid;
+}
+/* line 8, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric thead th {
+  background-color: #cccccc;
+}
+/* line 10, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td, table.rubric th {
+  border: 1px solid #aaaaaa;
+  padding: 2px 5px;
+}
+/* line 17, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description .container {
+  position: relative;
+  font-size: 0.9em;
+}
+/* line 21, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description .links {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* line 27, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description .learning_outcome_flag, table.rubric tr.criterion td.criterion_description .threshold {
+  display: none;
+}
+/* line 30, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description .long_description_holder {
+  font-size: 0.8em;
+  display: block;
+}
+/* line 33, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description .long_description_holder.empty {
+  display: none;
+}
+/* line 35, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_descriptionhover .links {
+  display: block;
+}
+/* line 38, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion td.criterion_description.editinghover .links {
+  display: none;
+}
+/* line 42, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td.criterion_description .learning_outcome_flag {
+  display: inline;
+}
+/* line 44, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td.criterion_description .threshold {
+  font-size: 0.8em;
+  display: block;
+  white-space: nowrap;
+}
+/* line 49, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td .links {
+  display: none;
+  visibility: hidden;
+}
+/* line 53, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td.points_form .editing {
+  display: none;
+}
+/* line 55, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td.points_form .displaying {
+  display: block;
+}
+/* line 57, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion td.points_form .ignoring {
+  display: none;
+}
+/* line 61, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion.ignore_criterion_for_scoring .points_form .editing {
+  display: none;
+}
+/* line 63, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion.ignore_criterion_for_scoring .points_form .displaying {
+  display: none;
+}
+/* line 65, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric tr.criterion.learning_outcome_criterion.ignore_criterion_for_scoring .points_form .ignoring {
+  display: block;
+}
+/* line 68, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: -1px;
+}
+/* line 72, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings td {
+  border: 1px solid #aaaaaa;
+  padding: 2px 5px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  font-size: 0.8em;
+  vertical-align: top;
+  padding: 2px 8px;
+}
+/* line 82, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings td .container {
+  padding: 5px 0;
+}
+/* line 85, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings td .container {
+  position: relative;
+}
+/* line 88, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings td .links {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* line 94, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric table.ratings td.edge_rating .delete_rating_link {
+  display: none;
+}
+/* line 97, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric .editing {
+  display: none;
+}
+/* line 99, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric .ignoring {
+  display: none;
+}
+/* line 102, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric .assessing {
+  display: none;
+}
+/* line 105, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td.criterion_description.completed {
+  background-color: #dddddd;
+}
+/* line 107, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td.rating.selected {
+  background-color: #ccffaa;
+}
+/* line 110, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td.points_form .criterion_comments {
+  display: none;
+}
+/* line 113, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td.points_form .displaying .criterion_comments {
+  display: inline;
+}
+/* line 115, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric td.points_form .displaying .criterion_comments.empty {
+  display: none;
+}
+/* line 119, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .editing {
+  display: block;
+}
+/* line 121, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .editing .criterion_comments {
+  display: inline;
+}
+/* line 123, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .editing .criterion_comments.empty {
+  opacity: 0.3;
+}
+/* line 125, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .editing .criterion_comments.empty:hover {
+  opacity: 0.8;
+}
+/* line 127, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .displaying {
+  display: none;
+}
+/* line 129, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .displaying .criterion_comments {
+  display: inline;
+}
+/* line 131, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing .points_form .displaying .criterion_comments.empty {
+  display: none;
+}
+/* line 134, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing span.assessing {
+  display: inline;
+}
+/* line 136, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing div.assessing {
+  display: block;
+}
+/* line 138, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing div.not_assessing {
+  display: none;
+}
+/* line 141, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing td.rating:hover {
+  background-color: #aadd99;
+  cursor: pointer;
+}
+/* line 145, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing tr.criterion.learning_outcome_criterion td.points_form .editing {
+  display: block;
+}
+/* line 147, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.assessing tr.criterion.learning_outcome_criterion td.points_form .displaying {
+  display: none;
+}
+/* line 151, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing .editing {
+  display: block;
+}
+/* line 154, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing td.editing, table.rubric.editing th.editing {
+  display: table-cell;
+}
+/* line 157, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing .displaying {
+  display: none;
+}
+/* line 161, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing tr.criterion td.criterion_description .long_description_holder {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* line 164, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing tr.criterion td.criterion_description .long_description_holder.empty {
+  font-weight: normal;
+  display: block;
+}
+/* line 167, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing tr.criterion td.criterion_description:hover .links {
+  display: block;
+}
+/* line 171, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing table.ratings td.add_right {
+  border-right-color: black;
+  background: url(/images/add_right.png) no-repeat center right;
+}
+/* line 175, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing table.ratings td.add_left {
+  border-left-color: black;
+  background: url(/images/add_left.png) no-repeat center left;
+}
+/* line 179, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing table.ratings td.add_column {
+  cursor: pointer;
+}
+/* line 182, ../../../app/stylesheets/g_rubrics.sass */
+table.rubric.editing table.ratings td:hover .links {
+  display: block;
+}
+
+/* line 185, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary {
+  margin-top: 0 !important;
+}
+/* line 187, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary .rating_holder {
+  margin-bottom: 3px;
+}
+/* line 189, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary .rating {
+  color: #777777;
+  font-style: italic;
+  text-align: left;
+}
+/* line 193, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary .rating_comments_dialog_link {
+  font-size: 0.8em;
+  max-height: 2.7em;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* line 198, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary .x_out_of_x {
+  float: right;
+}
+/* line 201, ../../../app/stylesheets/g_rubrics.sass */
+.rubric_summary.free_form .rating.description {
+  display: none;
+}

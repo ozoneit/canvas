@@ -1,0 +1,462 @@
+/* line 2, ../../../app/stylesheets/full_files.sass */
+#files_structure_list.instTree > li.node {
+  margin-right: 5px;
+}
+
+/* line 5, ../../../app/stylesheets/full_files.sass */
+ul.instTree li {
+  background-position: 13px 3px;
+}
+
+/* line 8, ../../../app/stylesheets/full_files.sass */
+ul.instTree li.leaf > .text {
+  display: block;
+}
+
+/* line 11, ../../../app/stylesheets/full_files.sass */
+ul.instTree li.node > .text {
+  display: block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  margin-left: -2px;
+  min-width: 200px;
+  padding-left: 2px;
+}
+
+/* line 18, ../../../app/stylesheets/full_files.sass */
+ul.instTree li.node > .text:hover {
+  background-color: #eeeeee;
+}
+
+/* line 22, ../../../app/stylesheets/full_files.sass */
+ul.instTree li.node.active-node > .text {
+  background-color: #dddddd;
+}
+
+/* line 25, ../../../app/stylesheets/full_files.sass */
+ul.instTree li.leaf {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-position: 13px 6px;
+}
+
+/* line 30, ../../../app/stylesheets/full_files.sass */
+#files_structure {
+  float: left;
+  width: 28%;
+  height: 400px;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* line 38, ../../../app/stylesheets/full_files.sass */
+#files_content {
+  float: left;
+  width: 70%;
+  height: 400px;
+  overflow: auto;
+  border: 1px solid #cccccc;
+  padding: 0;
+  margin: 0 0 0 5px;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+/* line 50, ../../../app/stylesheets/full_files.sass */
+.content_panel {
+  padding: 5px 5px 5px 20px;
+  border-bottom: 1px solid #cccccc;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -o-border-top-left-radius: 4px;
+  -ms-border-top-left-radius: 4px;
+  -khtml-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: #eeeeee;
+}
+
+/* line 56, ../../../app/stylesheets/full_files.sass */
+.content_panel .header {
+  float: left;
+}
+
+/* line 59, ../../../app/stylesheets/full_files.sass */
+.content_panel .header .name, .content_panel .header .display_name {
+  font-size: 1.2em;
+}
+
+/* line 62, ../../../app/stylesheets/full_files.sass */
+.content_panel .header .content {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+/* line 66, ../../../app/stylesheets/full_files.sass */
+.content_panel .breadcrumb {
+  padding-left: 10px;
+  font-size: 0.8em;
+}
+
+/* line 70, ../../../app/stylesheets/full_files.sass */
+.content_panel .breadcrumb a {
+  padding-left: 15px;
+  background: url(/images/crumb.png) no-repeat 3px center;
+}
+
+/* line 74, ../../../app/stylesheets/full_files.sass */
+.content_panel .links {
+  float: right;
+  text-align: right;
+}
+
+/* line 78, ../../../app/stylesheets/full_files.sass */
+.content_panel .links > a {
+  visibility: hidden;
+}
+
+/* line 81, ../../../app/stylesheets/full_files.sass */
+.content_panel .links > .edit_link {
+  visibility: hidden;
+}
+
+/* line 84, ../../../app/stylesheets/full_files.sass */
+.content_panel .links .sub_links {
+  text-align: right;
+  margin-right: 50px;
+  display: none;
+}
+
+/* line 89, ../../../app/stylesheets/full_files.sass */
+.content_panel.editable_content_panel .links > a {
+  visibility: visible;
+}
+
+/* line 91, ../../../app/stylesheets/full_files.sass */
+.content_panel.editable_content_panel .links > .edit_link {
+  visibility: visible;
+}
+
+/* line 94, ../../../app/stylesheets/full_files.sass */
+.content_panel.addable_content_panel .links .sub_links {
+  display: block;
+}
+
+/* line 97, ../../../app/stylesheets/full_files.sass */
+.content_panel #rename_entry_field {
+  font-size: 1.2em;
+}
+
+/* line 100, ../../../app/stylesheets/full_files.sass */
+.content_panel .header .readable_size {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+/* line 104, ../../../app/stylesheets/full_files.sass */
+.content_panel .details {
+  padding-left: 15px;
+}
+
+/* line 107, ../../../app/stylesheets/full_files.sass */
+.content_panel .cant_download {
+  display: none;
+}
+
+/* line 110, ../../../app/stylesheets/full_files.sass */
+.content_panel.panel_locked .download_item_link {
+  display: none;
+}
+
+/* line 113, ../../../app/stylesheets/full_files.sass */
+.content_panel.panel_locked .cant_download {
+  display: inline;
+}
+
+/* line 116, ../../../app/stylesheets/full_files.sass */
+.content_panel.with_subcontent {
+  border-bottom-width: 0px;
+  background-color: transparent;
+}
+
+/* line 120, ../../../app/stylesheets/full_files.sass */
+.content_panel .subcontent {
+  margin-top: 10px;
+}
+
+/* line 123, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item {
+  cursor: pointer;
+  padding: 3px 5px;
+}
+
+/* line 127, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .item_icon {
+  width: 20px;
+  height: 20px;
+  background: transparent url(/images/inst_tree/file_types/page_white.png) no-repeat left center;
+}
+
+/* line 132, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.image .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_picture.png);
+}
+
+/* line 135, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.zip .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_zip.png);
+}
+
+/* line 138, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.code .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_code.png);
+}
+
+/* line 141, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.text .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_text.png);
+}
+
+/* line 144, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.pdf .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_acrobat.png);
+}
+
+/* line 147, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.video .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_camera.png);
+}
+
+/* line 150, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.doc .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_word.png);
+}
+
+/* line 153, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.xls .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_excel.png);
+}
+
+/* line 156, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.ppt .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_powerpoint.png);
+}
+
+/* line 159, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.html .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_world.png);
+}
+
+/* line 162, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.flash .item_icon {
+  background-image: url(/images/inst_tree/file_types/page_white_flash.png);
+}
+
+/* line 165, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .name {
+  padding-left: 5px;
+}
+
+/* line 168, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.folder .item_icon {
+  background-image: url(/images/inst_tree/folder.png);
+}
+
+/* line 171, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.collaboration.etherpad .item_icon {
+  background-image: url(/images/etherpad_icon.ico);
+}
+
+/* line 174, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.collaboration.google_docs .item_icon {
+  background-image: url(/images/google_docs_icon.ico);
+}
+
+/* line 177, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .item_icon.draggable {
+  cursor: move;
+}
+
+/* line 180, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .header {
+  float: left;
+}
+
+/* line 183, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .header .sub_header {
+  font-size: 0.8em;
+  margin-left: 25px;
+  color: #888888;
+}
+
+/* line 188, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .header .sub_header .readable_size {
+  padding-right: 10px;
+}
+
+/* line 191, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .links {
+  float: right;
+  display: none;
+}
+
+/* line 195, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .sort_icon {
+  display: none;
+}
+
+/* line 198, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.editable_folder_item .sort_icon {
+  display: inline;
+  cursor: move;
+}
+
+/* line 202, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.editable_folder_item .links {
+  display: block;
+}
+
+/* line 205, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item .links a img {
+  visibility: hidden;
+}
+
+/* line 208, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.folder_item_hover {
+  background-color: #eeeeee;
+}
+
+/* line 211, ../../../app/stylesheets/full_files.sass */
+.files_content .folder_item.folder_item_hover .links a img {
+  visibility: visible;
+}
+
+/* line 214, ../../../app/stylesheets/full_files.sass */
+.files_content li.message {
+  padding: 10px 5px;
+  font-size: 1.2em;
+}
+
+/* line 218, ../../../app/stylesheets/full_files.sass */
+.file_drag {
+  background-color: white;
+  min-width: 300px;
+  border: 1px solid #cccccc;
+  list-style-type: none;
+}
+
+/* line 224, ../../../app/stylesheets/full_files.sass */
+.folder_item.file_drag.copy_drag,
+.folder_item.file_drag.copy_drag {
+  background-color: #ffff99 !important;
+}
+
+/* line 228, ../../../app/stylesheets/full_files.sass */
+#files_structure .folder > .text.drop_target {
+  border: 1px solid #888888;
+  background-color: #bbbbbb;
+}
+
+/* line 232, ../../../app/stylesheets/full_files.sass */
+#files_content .folder.drop_target {
+  border: 1px solid #888888;
+  background-color: #bbbbbb;
+}
+
+/* line 236, ../../../app/stylesheets/full_files.sass */
+#swfupload_holder {
+  position: absolute;
+  display: block;
+  left: -1000px;
+  overflow: hidden;
+}
+
+/* line 241, ../../../app/stylesheets/full_files.sass */
+.swfupload {
+  background-color: transparent;
+  color: transparent;
+  width: 55px;
+}
+
+/* line 246, ../../../app/stylesheets/full_files.sass */
+#file_uploads {
+  width: auto;
+  margin: 0px 10px 10px;
+}
+
+/* line 250, ../../../app/stylesheets/full_files.sass */
+#file_uploads .file_upload {
+  font-size: 0.8em;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 3px;
+  background-color: #dddddd;
+}
+
+/* line 258, ../../../app/stylesheets/full_files.sass */
+#file_uploads .file_upload.finished_message {
+  background-color: #d0e0f0;
+}
+
+/* line 261, ../../../app/stylesheets/full_files.sass */
+#file_uploads .file_upload .file_name {
+  font-weight: bold;
+}
+
+/* line 264, ../../../app/stylesheets/full_files.sass */
+#file_uploads .file_upload .cancel_upload_link {
+  float: right;
+}
+
+/* line 267, ../../../app/stylesheets/full_files.sass */
+#file_uploads .file_upload .progress_bar {
+  height: 10px;
+  margin: 2px 20px;
+}
+
+/* line 272, ../../../app/stylesheets/full_files.sass */
+#files_content #drag_n_drop_panel {
+  display: none;
+}
+/* line 275, ../../../app/stylesheets/full_files.sass */
+#files_content.file_drag li {
+  visibility: hidden;
+}
+/* line 277, ../../../app/stylesheets/full_files.sass */
+#files_content.file_drag li.folder_item.folder_item_hover .links a img {
+  visibility: hidden;
+}
+/* line 279, ../../../app/stylesheets/full_files.sass */
+#files_content.file_drag #drag_n_drop_panel {
+  position: absolute;
+  display: block;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  visibility: visible;
+}
+
+/* line 286, ../../../app/stylesheets/full_files.sass */
+.uploadifyQueue {
+  display: none;
+}

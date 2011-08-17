@@ -1,0 +1,28 @@
+/* line 3, ../../../app/stylesheets/g_groups.sass */
+li.group.teacher_group .name {
+  padding-left: 20px;
+  background: url(/images/assignment.png) no-repeat center left;
+}
+/* line 6, ../../../app/stylesheets/g_groups.sass */
+li.group .name {
+  padding-left: 20px;
+  background: url(/images/group.png) no-repeat center left;
+}
+/* line 9, ../../../app/stylesheets/g_groups.sass */
+li.group .link {
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+/* line 12, ../../../app/stylesheets/g_groups.sass */
+li.group .members {
+  margin-left: 30px;
+  font-size: 0.6em;
+  line-height: 0.6em;
+  margin-bottom: 10px;
+  margin-top: -3px;
+}
+
+/* line 20, ../../../app/stylesheets/g_groups.sass */
+.left_side a.assign_students_link {
+  display: none;
+}

@@ -1,0 +1,225 @@
+/* line 2, ../../../app/stylesheets/g_files.sass */
+#folder_content {
+  padding: 0px;
+  margin: 0px;
+  height: 350px;
+}
+/* line 7, ../../../app/stylesheets/g_files.sass */
+#folder_content a:hover, #folder_content a:focus {
+  background-color: transparent;
+}
+/* line 10, ../../../app/stylesheets/g_files.sass */
+#folder_content li {
+  display: block;
+  font-size: 1.2em;
+  width: auto;
+  list-style-type: none;
+  padding: 3px 5px 3px 30px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-color: white;
+  min-height: 20px;
+  min-width: 200px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 23, ../../../app/stylesheets/g_files.sass */
+#folder_content li.draggable {
+  cursor: pointer;
+}
+/* line 26, ../../../app/stylesheets/g_files.sass */
+#folder_content li .links {
+  display: none;
+  float: right;
+}
+/* line 30, ../../../app/stylesheets/g_files.sass */
+#folder_content li.folder {
+  background-image: url(/images/folder_big.png);
+}
+/* line 33, ../../../app/stylesheets/g_files.sass */
+#folder_content li.folder.currently_locked_folder, #folder_content li.folder.folder_locked {
+  background-image: url(/images/folder_big_locked.png);
+}
+/* line 36, ../../../app/stylesheets/g_files.sass */
+#folder_content li.folder.drop_target {
+  border: 1px solid #999999;
+}
+/* line 39, ../../../app/stylesheets/g_files.sass */
+#folder_content li.file {
+  background-image: url(/images/file_big.png);
+}
+/* line 42, ../../../app/stylesheets/g_files.sass */
+#folder_content li.file.currently_locked, #folder_content li.file.locked {
+  background-image: url(/images/file_big_locked.png);
+}
+/* line 46, ../../../app/stylesheets/g_files.sass */
+#folder_content li.draggable .name {
+  cursor: move;
+}
+/* line 49, ../../../app/stylesheets/g_files.sass */
+#folder_content li:hover {
+  background-color: #ffffcc;
+}
+/* line 51, ../../../app/stylesheets/g_files.sass */
+#folder_content li:hover .links {
+  display: block;
+  opacity: 0.5;
+}
+/* line 54, ../../../app/stylesheets/g_files.sass */
+#folder_content li:hover .links:hover {
+  opacity: 1;
+}
+/* line 57, ../../../app/stylesheets/g_files.sass */
+#folder_content li.selected, #folder_content li .temp_selected {
+  background-color: #ffeeaa;
+  font-weight: bold;
+}
+/* line 61, ../../../app/stylesheets/g_files.sass */
+#folder_content li.selected .links, #folder_content li .temp_selected .links {
+  display: block;
+  opacity: 1;
+}
+
+/* line 65, ../../../app/stylesheets/g_files.sass */
+#tags ul {
+  padding: 10px 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+/* line 70, ../../../app/stylesheets/g_files.sass */
+#tags ul li.tag {
+  padding: 4px 5px 4px 35px;
+  cursor: pointer;
+  background-image: url(/images/tag_icon.png);
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+}
+/* line 78, ../../../app/stylesheets/g_files.sass */
+#tags ul li.tag:hover {
+  background-color: #eeeeee;
+}
+/* line 81, ../../../app/stylesheets/g_files.sass */
+#tags ul li.tag.open {
+  background-image: url(/images/tag_icon.png);
+}
+/* line 84, ../../../app/stylesheets/g_files.sass */
+#tags ul li.tag.drop_target {
+  border: 1px solid #999999;
+}
+/* line 87, ../../../app/stylesheets/g_files.sass */
+#tags ul li.tag.selected {
+  background-color: #dddddd;
+}
+
+/* line 91, ../../../app/stylesheets/g_files.sass */
+#view_options .header {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 96, ../../../app/stylesheets/g_files.sass */
+#folders {
+  padding: 0px 0px 20px 0px;
+}
+/* line 99, ../../../app/stylesheets/g_files.sass */
+#folders ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+/* line 104, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder {
+  display: block;
+  color: #444444;
+}
+/* line 108, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder ul {
+  margin-left: 10px;
+}
+/* line 111, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name {
+  padding: 5px 5px 5px 30px;
+  cursor: pointer;
+  background-image: url(/images/folder_closed.png);
+  background-position: 7px center;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  vertical-align: center;
+  font-size: 1em;
+}
+/* line 121, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name:hover {
+  background-color: #eeeeee;
+}
+/* line 124, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name.open {
+  background-image: url(/images/folder_open.png);
+}
+/* line 127, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name.drop_target {
+  border: 1px solid #999999;
+}
+/* line 130, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name.selected {
+  background-color: #dddddd;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  font-weight: bold;
+}
+/* line 136, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder .folder_name.related {
+  background-color: #dddddd;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 142, ../../../app/stylesheets/g_files.sass */
+#folders ul li.folder.currently_locked_folder .folder_name, #folders ul li.folder.folder_locked .folder_name {
+  background-image: url(/images/folder_locked.png);
+}
+
+/* line 145, ../../../app/stylesheets/g_files.sass */
+#multi_file_uploads_link {
+  background: url(/images/file_multiple.png) left 5px no-repeat;
+}
+
+/* line 148, ../../../app/stylesheets/g_files.sass */
+#file_uploads {
+  width: auto;
+  margin: 0px 30px 10px;
+}
+/* line 151, ../../../app/stylesheets/g_files.sass */
+#file_uploads .file_upload {
+  font-size: 0.8em;
+  border: 1px solid #aaaaaa;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 3px;
+  background-color: #dddddd;
+}
+/* line 158, ../../../app/stylesheets/g_files.sass */
+#file_uploads .file_upload.finished_message {
+  background-color: #d0e0f0;
+}
+/* line 160, ../../../app/stylesheets/g_files.sass */
+#file_uploads .file_upload .file_name {
+  font-weight: bold;
+}
+/* line 162, ../../../app/stylesheets/g_files.sass */
+#file_uploads .file_upload .cancel_upload_link {
+  float: right;
+}
+/* line 164, ../../../app/stylesheets/g_files.sass */
+#file_uploads .file_upload .progress_bar {
+  height: 10px;
+  margin: 2px 20px;
+}

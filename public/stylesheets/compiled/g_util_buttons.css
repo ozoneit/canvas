@@ -1,0 +1,263 @@
+/* Button
+ *---------------------------------- */
+/* line 38, ../../../app/stylesheets/g_util_buttons.sass */
+button.button, a.button {
+  -moz-user-select: none;
+  font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  outline: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.1em;
+  text-decoration: none !important;
+  cursor: pointer;
+  text-align: left;
+  zoom: 1;
+  /* the overflow property removes extra width in IE */
+  overflow: visible;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px 0;
+  background: url(/images/button_bg.png) 0px 0px repeat-x !important;
+  color: #555555 !important;
+  border-color: #b6b6b6;
+  line-height: 1.4;
+  font-size: 1.08em;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+  padding: 5px 12px;
+}
+
+/* line 63, ../../../app/stylesheets/g_util_buttons.sass */
+.button-icon-only {
+  /* to make room for the icon, a width needs to be set here */
+  width: 2.2em;
+}
+
+/* line 67, ../../../app/stylesheets/g_util_buttons.sass */
+button.button-icon-only {
+  /* button elements seem to need a little more width */
+  width: 2.4em;
+}
+
+/* line 71, ../../../app/stylesheets/g_util_buttons.sass */
+.button-icons-only {
+  width: 3em;
+}
+
+/* line 74, ../../../app/stylesheets/g_util_buttons.sass */
+button.button-icons-only {
+  width: 3.2em;
+}
+
+/* line 78, ../../../app/stylesheets/g_util_buttons.sass */
+.button:hover, .button:focus {
+  background: url(/images/button_bg.png) 0px 0px repeat-x !important;
+  color: #313131;
+  border-color: #9d9d9d;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px 0;
+}
+/* line 83, ../../../app/stylesheets/g_util_buttons.sass */
+.button:active {
+  background: url(/images/button_bg.png) 0px bottom repeat-x !important;
+  color: #4f4f4f;
+  border-color: rgba(188, 188, 188, 0.5);
+}
+
+/* line 87, ../../../app/stylesheets/g_util_buttons.sass */
+.button-icon-only, .button-icons-only {
+  padding: 5px;
+  text-indent: -9999999px;
+}
+
+/* line 90, ../../../app/stylesheets/g_util_buttons.sass */
+.button-text-icon {
+  padding: 5px 12px 5px 25px;
+}
+
+/* line 92, ../../../app/stylesheets/g_util_buttons.sass */
+.button-text-icons {
+  padding: 5px 12px 5px 25px;
+  padding-right: 1.8em;
+}
+
+/*button icon element(s) */
+/* line 98, ../../../app/stylesheets/g_util_buttons.sass */
+.button .ui-icon {
+  border: 0px none;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  margin-left: -20px;
+}
+
+/* line 105, ../../../app/stylesheets/g_util_buttons.sass */
+.button-icon-only .ui-icon {
+  left: 50%;
+  margin-left: -8px;
+}
+
+/* line 109, ../../../app/stylesheets/g_util_buttons.sass */
+.button .ui-icon-primary {
+  left: 0.5em;
+}
+/* line 111, ../../../app/stylesheets/g_util_buttons.sass */
+.button .button-icon-secondary {
+  right: 0.5em;
+}
+
+/* workarounds */
+/* line 115, ../../../app/stylesheets/g_util_buttons.sass */
+button.button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  /* reset extra padding in Firefox */
+}
+
+/* line 124, ../../../app/stylesheets/g_util_buttons.sass */
+a.button img, button.button img {
+  margin: 0 3px -3px 0 !important;
+  vertical-align: baseline;
+}
+/* line 128, ../../../app/stylesheets/g_util_buttons.sass */
+a.button em, button.button em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 159, ../../../app/stylesheets/g_util_buttons.sass */
+button.small-button, a.small-button {
+  margin: 0 0.7em 0 0;
+  padding: 2px 5px;
+  font-size: 100%;
+  line-height: 130%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: normal;
+}
+/* line 167, ../../../app/stylesheets/g_util_buttons.sass */
+button.small-button img, a.small-button img {
+  margin: 0 1px 0px 0 !important;
+}
+/* line 170, ../../../app/stylesheets/g_util_buttons.sass */
+button.big-button, a.big-button {
+  font-size: 1.3em;
+}
+/* line 172, ../../../app/stylesheets/g_util_buttons.sass */
+button.button-default, a.button-default {
+  font-weight: bold;
+}
+
+/* line 175, ../../../app/stylesheets/g_util_buttons.sass */
+.button .ui-icon {
+  margin: 2px 3px 0 0;
+  float: left;
+  _display: none;
+}
+
+/* line 181, ../../../app/stylesheets/g_util_buttons.sass */
+.button-container {
+  margin-top: 0.5em;
+}
+
+/* line 184, ../../../app/stylesheets/g_util_buttons.sass */
+.button-container-right-aligned {
+  text-align: right;
+}
+/* line 187, ../../../app/stylesheets/g_util_buttons.sass */
+.button-container-right-aligned a.button, .button-container-right-aligned button.button {
+  margin-right: 0;
+  margin-left: 0.7em;
+}
+
+/* line 193, ../../../app/stylesheets/g_util_buttons.sass */
+button.disabled, button.disabled:hover, button.disabled:active, button.disabled:focus {
+  color: #999999;
+  opacity: 0.8;
+  -ms-filter: alpha(Opacity=80);
+  filter: alpha(Opacity=80);
+  background: #eaeaea url(/images/button-bg-grad.png) repeat-x left top !important;
+  border: 1px solid #dedede;
+  border-right: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bfbfbf;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/* line 205, ../../../app/stylesheets/g_util_buttons.sass */
+a.button-secondary, a.button-secondary:hover, a.button-secondary:active,
+button.button-secondary,
+button.button-secondary:hover,
+button.button-secondary:active {
+  float: none;
+  margin: 0 0.7em 0 0 !important;
+  background: transparent none !important;
+  border: 0px none !important;
+  padding: 0 0 0 1em !important;
+  display: inline;
+  display: inline-block;
+  cursor: pointer;
+  color: #d15545 !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+/* line 219, ../../../app/stylesheets/g_util_buttons.sass */
+a.button-secondary:hover, a.button-secondary:active,
+button.button-secondary:hover,
+button.button-secondary:active {
+  text-decoration: underline !important;
+  color: #d12f19;
+  outline: none;
+}
+/* line 223, ../../../app/stylesheets/g_util_buttons.sass */
+a.button-secondary.disabled,
+button.button-secondary.disabled {
+  text-decoration: none !important;
+  cursor: default;
+}
+
+/* line 229, ../../../app/stylesheets/g_util_buttons.sass */
+.textfield-inline-with-button .small-button {
+  margin: 0 0 0 2px;
+}
+/* line 231, ../../../app/stylesheets/g_util_buttons.sass */
+.textfield-inline-with-button input {
+  width: 80%;
+}
+
+/* line 236, ../../../app/stylesheets/g_util_buttons.sass */
+#right-side a.button-sidebar, #right-side button.button-sidebar {
+  width: 50%;
+}
+
+/* line 241, ../../../app/stylesheets/g_util_buttons.sass */
+#right-side a.button-sidebar-wide, #right-side button.button-sidebar-wide {
+  margin: 5px auto;
+  display: block;
+  /* 12px is the size of the padding on the button */
+  width: 234px;
+}
+/* line 246, ../../../app/stylesheets/g_util_buttons.sass */
+#right-side button.button-sidebar-wide {
+  width: 260px;
+}

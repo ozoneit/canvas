@@ -1,0 +1,63 @@
+/* line 3, ../../../app/stylesheets/sub_accounts.sass */
+.account > .header .edit_account {
+  display: none;
+}
+
+/* line 6, ../../../app/stylesheets/sub_accounts.sass */
+.account > .header {
+  font-size: 1.2em;
+  padding: 3px 5px;
+}
+
+/* line 10, ../../../app/stylesheets/sub_accounts.sass */
+.account.editing_account > .header .edit_account {
+  display: block;
+}
+
+/* line 13, ../../../app/stylesheets/sub_accounts.sass */
+.account.editing_account > .header .show_account {
+  display: none;
+}
+
+/* line 16, ../../../app/stylesheets/sub_accounts.sass */
+.header .links {
+  padding-left: 5px;
+  opacity: 0.3;
+  float: right;
+}
+
+/* line 21, ../../../app/stylesheets/sub_accounts.sass */
+.header.header_hover {
+  background-color: #eeeeee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 25, ../../../app/stylesheets/sub_accounts.sass */
+.header.header_hover .links {
+  opacity: 1;
+}
+
+/* line 29, ../../../app/stylesheets/sub_accounts.sass */
+.header .courses_count, .header .sub_accounts_count {
+  color: #888888;
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+
+/* line 34, ../../../app/stylesheets/sub_accounts.sass */
+ul.sub_accounts {
+  list-style-type: none;
+  margin: 10px;
+  padding-left: 20px;
+  margin-right: 0;
+}
+
+/* line 40, ../../../app/stylesheets/sub_accounts.sass */
+ul.sub_accounts .account {
+  min-height: 40px;
+}

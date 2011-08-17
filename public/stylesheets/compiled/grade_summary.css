@@ -1,0 +1,221 @@
+/* line 1, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary {
+  border-collapse: collapse;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 5, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary th {
+  font-size: 1em;
+  padding: 4px 5px 2px;
+  font-weight: bold;
+  background-color: #444444;
+  color: white;
+  text-align: left;
+}
+
+/* line 13, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr td {
+  padding: 5px 5px;
+  text-align: left;
+  border-top: 1px solid #cccccc;
+  background-color: white;
+}
+
+/* line 19, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.comments td {
+  border-width: 0;
+  font-size: 0.8em;
+  padding-left: 30px;
+}
+
+/* line 24, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.rubric_assessments > td {
+  border-width: 0;
+  padding-left: 30px;
+}
+/* line 27, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.rubric_assessments > td table.rubric {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* line 31, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.editable:hover td {
+  background-color: #ccddff;
+}
+
+/* line 34, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.editable.student_assignment.dropped:hover td.points_possible {
+  background-image: url(/images/earmark_hover.png);
+}
+
+/* line 37, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.student_assignment.dropped td {
+  color: #cccccc;
+  border-top-color: #eeeeee;
+}
+
+/* line 41, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.student_assignment.dropped td.points_possible {
+  background-image: url(/images/earmark.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+/* line 46, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.student_assignment.dropped td a {
+  color: #aaaaaa;
+}
+
+/* line 49, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.assignment_score {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* line 54, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.assignment_score:hover .grade {
+  font-weight: bold;
+}
+
+/* line 57, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.assignment_score .grade.changed {
+  color: #880000;
+  font-weight: bold;
+}
+
+/* line 61, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.possible {
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* line 65, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.title {
+  font-size: 1.1em;
+  padding-left: 20px;
+}
+
+/* line 69, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.title .context {
+  visibility: hidden;
+  font-size: 0.8em;
+  color: #999999;
+  padding-left: 10px;
+  line-height: 0.5em;
+}
+
+/* line 76, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.title .context.context_hover {
+  visibility: visible;
+}
+
+/* line 79, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary td.due {
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+/* line 83, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.assignment_graded td {
+  background-color: #eeeeee;
+}
+
+/* line 86, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.final_grade td {
+  background-color: #666666;
+  color: #eeeeee;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 92, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.group_total td {
+  background-color: #cccccc;
+  border-top-width: 0;
+  font-weight: bold;
+}
+
+/* line 97, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary tr.group_total td.possible {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+/* line 101, ../../../app/stylesheets/grade_summary.sass */
+.revert_score_link {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  opacity: 0.5;
+  display: none;
+}
+
+/* line 108, ../../../app/stylesheets/grade_summary.sass */
+.revert_score_link:hover {
+  opacity: 1;
+}
+
+/* line 112, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip {
+  position: relative;
+  z-index: 10;
+  outline: none;
+}
+/* line 116, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip:hover {
+  text-decoration: none;
+}
+/* line 118, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip:hover .tooltip_wrap, #grades_summary .tooltip:hover .tooltip_text {
+  visibility: visible;
+}
+/* line 120, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip:active {
+  outline: none;
+  text-decoration: none;
+}
+/* line 123, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip:active .tooltip_wrap, #grades_summary .tooltip:active .tooltip_text {
+  visibility: visible;
+}
+/* line 125, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip .tooltip_wrap, #grades_summary .tooltip .tooltip_text {
+  display: block;
+  visibility: hidden;
+}
+/* line 128, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip .tooltip_wrap {
+  background: url("/images/tooltip_carat.png") no-repeat left bottom;
+  bottom: 15px;
+  padding-bottom: 3px;
+  position: absolute;
+}
+/* line 134, ../../../app/stylesheets/grade_summary.sass */
+.ie #grades_summary .tooltip .tooltip_wrap {
+  bottom: 25px;
+}
+/* line 136, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip .tooltip_text {
+  background-color: #444444;
+  background-position: left bottom;
+  color: white;
+  left: 0px;
+  max-width: 250px;
+  padding: 2px 7px 2px;
+  white-space: nowrap;
+}
+/* line 144, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip .tooltip_text table tr td {
+  background-color: transparent;
+  font-size: 1em;
+  padding: 0 2px;
+  border-width: 0px;
+}
+/* line 149, ../../../app/stylesheets/grade_summary.sass */
+#grades_summary .tooltip .right {
+  right: 0px;
+  background-position: right bottom;
+}

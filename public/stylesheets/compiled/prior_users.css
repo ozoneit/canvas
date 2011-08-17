@@ -1,0 +1,33 @@
+/* line 1, ../../../app/stylesheets/prior_users.sass */
+#users {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 4, ../../../app/stylesheets/prior_users.sass */
+#users th {
+  font-weight: bold;
+}
+/* line 6, ../../../app/stylesheets/prior_users.sass */
+#users td, #users th {
+  border-bottom: 1px dotted #cccccc;
+}
+/* line 8, ../../../app/stylesheets/prior_users.sass */
+#users .name {
+  padding: 2px 20px 2px 5px;
+}
+/* line 10, ../../../app/stylesheets/prior_users.sass */
+#users .email {
+  font-size: 0.8em;
+  color: #888888;
+  padding-left: 10px;
+}
+/* line 14, ../../../app/stylesheets/prior_users.sass */
+#users .type {
+  color: #888888;
+  font-size: 0.8em;
+  padding: 2px 20px 2px 0;
+}
+/* line 18, ../../../app/stylesheets/prior_users.sass */
+#users .score {
+  padding: 2px 5px 2px 20px;
+}

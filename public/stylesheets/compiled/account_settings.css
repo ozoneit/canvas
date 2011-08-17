@@ -1,0 +1,132 @@
+/* line 3, ../../../app/stylesheets/account_settings.sass */
+.admins_list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+/* line 7, ../../../app/stylesheets/account_settings.sass */
+.admins_list li {
+  width: 300px;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+}
+
+/* line 12, ../../../app/stylesheets/account_settings.sass */
+.admins_list li:hover {
+  background-color: #eeeeee;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 16, ../../../app/stylesheets/account_settings.sass */
+.admins_list .user_name {
+  font-weight: bold;
+  float: left;
+}
+
+/* line 20, ../../../app/stylesheets/account_settings.sass */
+.admins_list .email {
+  clear: left;
+  display: block;
+  font-size: 0.8em;
+  color: #888888;
+  padding-left: 10px;
+}
+
+/* line 27, ../../../app/stylesheets/account_settings.sass */
+.admins_list .membership_type {
+  clear: left;
+  display: block;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+/* line 33, ../../../app/stylesheets/account_settings.sass */
+.admins_list .remove_account_user_link {
+  float: right;
+  opacity: 0.5;
+}
+
+/* line 37, ../../../app/stylesheets/account_settings.sass */
+.admins_list li:hover .remove_account_user_link {
+  opacity: 1;
+}
+
+/* line 41, ../../../app/stylesheets/account_settings.sass */
+#account_notification_icon option {
+  padding: 3px 0 3px 25px;
+  background: url(/images/warning.png) no-repeat 5px center;
+}
+/* line 44, ../../../app/stylesheets/account_settings.sass */
+#account_notification_icon option.calendar {
+  background-image: url(/images/calendar_icon.png);
+}
+/* line 46, ../../../app/stylesheets/account_settings.sass */
+#account_notification_icon option.people {
+  background-image: url(/images/group.png);
+}
+/* line 48, ../../../app/stylesheets/account_settings.sass */
+#account_notification_icon option.help {
+  background-image: url(/images/help.png);
+}
+/* line 50, ../../../app/stylesheets/account_settings.sass */
+#account_notification_icon option.file {
+  background-image: url(/images/file.png);
+}
+
+/* line 52, ../../../app/stylesheets/account_settings.sass */
+.alerts_list {
+  padding-left: 20px;
+}
+/* line 54, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+/* line 57, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li .subject {
+  font-size: 1.1em;
+  font-weight: bold;
+  float: left;
+}
+/* line 61, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li .subject img {
+  padding-right: 5px;
+}
+/* line 63, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li .delete_notification_link {
+  float: right;
+  opacity: 0.5;
+  -ms-filter: alpha(Opacity=50);
+  filter: alpha(Opacity=50);
+}
+/* line 66, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li .dates {
+  font-size: 0.8em;
+  border-bottom: 1px dotted #cccccc;
+  margin-bottom: 5px;
+}
+/* line 70, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li .message {
+  font-size: 0.8em;
+}
+/* line 72, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li:hover {
+  background: #eeeeee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 75, ../../../app/stylesheets/account_settings.sass */
+.alerts_list li:hover .delete_notification_link {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}

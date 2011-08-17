@@ -1,0 +1,747 @@
+/* line 2, ../../../app/stylesheets/speed_grader.sass */
+#content {
+  padding: 0;
+}
+
+/* line 5, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header a.ui-selectmenu:hover,
+#gradebook_header a.ui-selectmenu:focus {
+  background-color: white;
+  text-decoration: none;
+}
+
+/* line 9, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu a:focus {
+  background-color: inherit;
+}
+
+/* line 12, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header {
+  background: url("/images/canvas/header_bg.png") repeat-x left -28px;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 8px 25px 2px 8px;
+  font-size: 11px;
+  text-align: center;
+  color: #666666;
+  height: 31px;
+  position: relative;
+  min-width: 960px;
+}
+/* line 22, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header a {
+  color: #666666;
+  font-weight: bold;
+}
+/* line 25, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header a:hover, #gradebook_header a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+/* line 28, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header #combo_box_container {
+  color: #333333;
+  text-align: left;
+}
+/* line 31, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header #combo_box_container select {
+  width: 230px;
+}
+/* line 33, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .right {
+  float: right;
+}
+/* line 35, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .right div {
+  clear: right;
+}
+/* line 37, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .center {
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 42, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .center .due_at {
+  margin-top: -3px;
+}
+/* line 44, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header #assignment_url {
+  font-size: 1.2em;
+}
+/* line 46, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left {
+  float: left;
+}
+/* line 48, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left #combo_box_container {
+  float: left;
+}
+/* line 50, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left #x_of_x_students {
+  float: left;
+  padding-left: 8px;
+}
+/* line 53, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .prev, #gradebook_header .left .next {
+  display: block;
+  background: url("/images/back_forward.png") no-repeat top left;
+  text-indent: -1000px;
+  width: 27px;
+  height: 23px;
+  float: left;
+  outline: none;
+}
+/* line 61, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .prev:hover, #gradebook_header .left .prev:focus, #gradebook_header .left .next:hover, #gradebook_header .left .next:focus {
+  background-position: left -31px;
+}
+/* line 63, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .prev:active, #gradebook_header .left .next:active {
+  background-position: bottom left;
+}
+/* line 65, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .next {
+  background-position: top right;
+}
+/* line 67, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .next:hover, #gradebook_header .left .next:focus {
+  background-position: right -31px;
+}
+/* line 69, ../../../app/stylesheets/speed_grader.sass */
+#gradebook_header .left .next:active {
+  background-position: bottom right;
+}
+
+/* line 71, ../../../app/stylesheets/speed_grader.sass */
+#eg-canvas-logo {
+  background: url(/images/canvas/header_canvas_logo.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  height: 26px;
+  width: 135px;
+  display: block;
+}
+
+/* line 81, ../../../app/stylesheets/speed_grader.sass */
+#settings_link .ui-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 84, ../../../app/stylesheets/speed_grader.sass */
+#full_width_container {
+  min-width: 960px;
+}
+
+/* line 88, ../../../app/stylesheets/speed_grader.sass */
+.full_width #left_side {
+  width: 100%;
+  margin-left: -8px;
+}
+/* line 92, ../../../app/stylesheets/speed_grader.sass */
+.full_width #left_side #left_side_inner {
+  margin-left: 8px;
+}
+/* line 95, ../../../app/stylesheets/speed_grader.sass */
+.full_width #right_side {
+  width: 7px;
+}
+/* line 98, ../../../app/stylesheets/speed_grader.sass */
+.full_width #rightside_inner {
+  display: none;
+}
+
+/* line 102, ../../../app/stylesheets/speed_grader.sass */
+.media_comments_visible #left_side {
+  width: 100%;
+  margin-left: -330px;
+}
+/* line 106, ../../../app/stylesheets/speed_grader.sass */
+.media_comments_visible #left_side #left_side_inner {
+  margin-left: 330px;
+}
+/* line 109, ../../../app/stylesheets/speed_grader.sass */
+.media_comments_visible #right_side {
+  width: 329px;
+}
+
+/* line 115, ../../../app/stylesheets/speed_grader.sass */
+#left_side {
+  width: 75%;
+  float: left;
+}
+/* line 118, ../../../app/stylesheets/speed_grader.sass */
+#left_side #submissions_container, #left_side #left_side_inner, #left_side iframe, #left_side #scribd_doc_holder, #left_side #iframe_holder {
+  height: 100%;
+  width: 100%;
+  border: 0 none;
+}
+/* line 122, ../../../app/stylesheets/speed_grader.sass */
+#left_side h3 {
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+/* line 129, ../../../app/stylesheets/speed_grader.sass */
+#width_resizer {
+  background: #bbbbbb url("/images/splitpane_handle-ew.gif") no-repeat scroll 50% 50%;
+  cursor: pointer;
+  height: 100%;
+  width: 7px;
+  float: left;
+  border-right: 1px solid #838383;
+}
+/* line 136, ../../../app/stylesheets/speed_grader.sass */
+#width_resizer.highlight {
+  background-color: #fbec88;
+}
+
+/* line 139, ../../../app/stylesheets/speed_grader.sass */
+#right_side {
+  background-color: #f0f0f0;
+  color: #444444;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-size: 12px;
+}
+/* line 146, ../../../app/stylesheets/speed_grader.sass */
+#right_side a {
+  color: #124b87;
+}
+/* line 148, ../../../app/stylesheets/speed_grader.sass */
+#right_side a:hover {
+  text-decoration: underline;
+}
+/* line 151, ../../../app/stylesheets/speed_grader.sass */
+#right_side .bold {
+  font-weight: bold;
+}
+/* line 154, ../../../app/stylesheets/speed_grader.sass */
+#right_side #rubric_summary_holder {
+  border-top: 1px dashed #bbbbbb;
+}
+/* line 157, ../../../app/stylesheets/speed_grader.sass */
+#right_side #rubric_summary_container {
+  border-top: 1px solid #aaaaaa;
+  overflow: auto;
+}
+/* line 161, ../../../app/stylesheets/speed_grader.sass */
+#right_side #rugric_assessments_list_and_edit_button_holder {
+  padding-top: 0;
+}
+/* line 163, ../../../app/stylesheets/speed_grader.sass */
+#right_side #rugric_assessments_list_and_edit_button_holder .button-container {
+  display: inline;
+}
+/* line 168, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment {
+  margin: 3px;
+  font-size: 12px;
+  border-top: 1px dashed #cccccc;
+}
+/* line 172, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment .comment_citation {
+  color: #888888;
+  font-size: 0.8em;
+  text-align: right;
+}
+/* line 176, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment .delete_comment_link {
+  float: right;
+}
+/* line 178, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment .delete_comment_link .ui-icon {
+  opacity: 0.2;
+}
+/* line 180, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment .delete_comment_link:hover, #right_side div.comment .delete_comment_link:focus {
+  background-color: none;
+}
+/* line 182, ../../../app/stylesheets/speed_grader.sass */
+#right_side div.comment .delete_comment_link:hover .ui-icon, #right_side div.comment .delete_comment_link:focus .ui-icon {
+  opacity: 1;
+}
+/* line 185, ../../../app/stylesheets/speed_grader.sass */
+#right_side h2 {
+  background: #e3e3e3 url("/images/h2_bg.png") repeat-x scroll 0% 36%;
+  border-bottom: 1px solid #838383;
+  border-top: 1px solid #999999;
+  color: #555555;
+  font-size: 1.25em;
+  margin: 0;
+  font-weight: bold;
+  padding: 2px 5px;
+  font-family: arial, sans-serif;
+}
+/* line 196, ../../../app/stylesheets/speed_grader.sass */
+#right_side .content_box {
+  padding: 6px 3px;
+}
+/* line 202, ../../../app/stylesheets/speed_grader.sass */
+#right_side #rightside_inner {
+  position: relative;
+  margin-left: 8px !important;
+}
+
+/* line 210, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full h2, #grading h2 {
+  margin-top: 0 !important;
+  border-top: 0px none !important;
+}
+
+/* line 214, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full {
+  position: absolute;
+  right: 1px;
+  top: 0px;
+  border-left: 7px solid #bbbbbb;
+  border-bottom: 7px solid #bbbbbb;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #e9e9e9;
+  z-index: 1000;
+}
+/* line 224, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full .content_box {
+  padding-right: 18px;
+}
+/* line 227, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full #rubric_full_resizer {
+  position: absolute;
+  top: 0;
+  left: -6px;
+  cursor: pointer;
+  height: 100%;
+  width: 7px;
+}
+/* line 234, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full #rubric_full_resizer #rubric_full_resizer_handle {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  background: transparent url("/images/splitpane_handle-ew.gif") no-repeat scroll 50% 50%;
+  cursor: pointer;
+  height: 20px;
+  width: 7px;
+}
+/* line 243, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full a.big_link {
+  display: none;
+}
+/* line 246, ../../../app/stylesheets/speed_grader.sass */
+#rubric_full table.rubric {
+  margin-top: 0;
+}
+
+/* line 249, ../../../app/stylesheets/speed_grader.sass */
+#discussion {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 254, ../../../app/stylesheets/speed_grader.sass */
+#comments {
+  overflow-y: auto;
+}
+
+/* line 257, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment {
+  background-color: #f0f0f0;
+  border-top: 1px solid #cccccc;
+  padding: 0 0.5% 2px;
+  width: 99%;
+  position: absolute;
+  bottom: 0;
+}
+/* line 265, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment #media_media_recording {
+  margin: 0 -2px;
+}
+/* line 267, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .hidden {
+  display: none;
+}
+/* line 269, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment #teachers_and_submitter_will_be_notified {
+  color: #888888;
+  font-size: 10px;
+}
+/* line 272, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment label {
+  font-weight: bold;
+}
+/* line 276, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment button {
+  float: right;
+  margin: 2px 4px;
+}
+/* line 279, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 284, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things .prompt {
+  color: #999999;
+  font-weight: bold;
+  line-height: 24px;
+  padding-right: 4px;
+}
+/* line 289, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things li {
+  float: left;
+}
+/* line 291, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things li .icon {
+  display: block;
+  border: 1px solid #f0f0f0;
+  padding: 2px 3px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 296, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things li .icon img {
+  vertical-align: bottom;
+}
+/* line 298, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .attach_things li a:hover .icon, #add_a_comment .attach_things li a:focus .icon {
+  background: url(/images/h2_bg.png) repeat-x 0 -15px;
+  border-color: #888888;
+}
+/* line 302, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment #group_comment_wrapper {
+  margin-bottom: 2px;
+}
+/* line 304, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment #group_comment_wrapper label {
+  font-weight: normal;
+}
+/* line 306, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment #group_comment_wrapper input {
+  margin: 0;
+  vertical-align: middle;
+}
+/* line 309, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .comment_attachment_input {
+  margin-bottom: 2px;
+}
+/* line 311, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .comment_attachment_input input {
+  float: left;
+  width: 85%;
+  font-size: 8.5px;
+}
+/* line 317, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment .comment_attachment_input a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  float: right;
+  text-indent: -9999px;
+  background: url("/images/delete_circle.png") no-repeat;
+  outline: none;
+}
+/* line 325, ../../../app/stylesheets/speed_grader.sass */
+#add_a_comment textarea {
+  border: 1px solid #aaaaaa;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2px;
+  width: 94%;
+  max-height: 200px;
+  font-size: 13px;
+}
+
+/* line 333, ../../../app/stylesheets/speed_grader.sass */
+html > body #add_a_comment textarea {
+  width: 97%;
+}
+
+/* line 336, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+  color: #222222 !important;
+  height: 21px;
+  background-color: white;
+  background-image: none;
+  border: 1px solid #b5b8c8;
+  font-weight: normal !important;
+}
+/* line 344, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown:hover {
+  text-decoration: none !important;
+}
+/* line 346, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown .ui-selectmenu-status {
+  font-size: 14px;
+  padding: 0 20px 0;
+  padding: 0 0 0 20px;
+  margin: 0 20px 0 0;
+  height: 21px;
+}
+/* line 352, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown .ui-selectmenu-status .ui-icon {
+  top: 3px !important;
+}
+/* line 354, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown .ui-selectmenu-icon {
+  width: 17px;
+  height: 22px;
+  border: 0;
+  background: transparent url("/images/inst_combo/trigger.gif") no-repeat 0 0;
+  cursor: pointer;
+  border-bottom: 1px solid #b5b8c8;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  margin: 0;
+}
+
+/* line 365, ../../../app/stylesheets/speed_grader.sass */
+body .ui-selectmenu-dropdown:hover .ui-selectmenu-icon, body .ui-state-active .ui-selectmenu-icon {
+  background-position: -17px 0;
+}
+
+/* line 368, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu {
+  z-index: 10;
+  max-height: 400px;
+  margin-top: 1px;
+}
+/* line 372, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu li a, .ui-selectmenu-menu .ui-selectmenu-status {
+  padding-top: 0.1em !important;
+  padding-bottom: 0 !important;
+}
+/* line 376, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu li .ui-selectmenu-item-header {
+  font-weight: normal;
+}
+/* line 378, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu li .ui-selectmenu-item-footer {
+  margin: 1px 0 1px;
+  margin-top: -1px;
+  font-size: 10px;
+  line-height: 1em;
+  opacity: 0;
+  -ms-filter: alpha(Opacity=0);
+  filter: alpha(Opacity=0);
+}
+/* line 384, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-menu .ui-selectmenu-item-focus .ui-selectmenu-item-footer {
+  opacity: 0.9;
+  -ms-filter: alpha(Opacity=90);
+  filter: alpha(Opacity=90);
+}
+
+/* line 387, ../../../app/stylesheets/speed_grader.sass */
+.ui-selectmenu-item-icon {
+  top: 2px !important;
+  margin-top: 0 !important;
+  left: -3px;
+  background: no-repeat;
+  background-image: url("/images/three_state_checkbox.gif") !important;
+}
+/* line 395, ../../../app/stylesheets/speed_grader.sass */
+.graded .ui-selectmenu-item-icon {
+  background-position: 0 -120px;
+}
+/* line 397, ../../../app/stylesheets/speed_grader.sass */
+.not_graded .ui-selectmenu-item-icon {
+  background-position: 0 -65px;
+}
+/* line 399, ../../../app/stylesheets/speed_grader.sass */
+.not_submitted .ui-selectmenu-item-icon {
+  background-position: 0 -12px;
+}
+/* line 401, ../../../app/stylesheets/speed_grader.sass */
+.resubmitted .ui-selectmenu-item-icon {
+  background-position: 0 -175px;
+}
+
+/* line 404, ../../../app/stylesheets/speed_grader.sass */
+#grade_container .turnitin_similarity_score {
+  background-color: white;
+  font-size: 0.8em;
+  padding-bottom: 0;
+  color: #444444;
+  text-decoration: none;
+  margin-top: -2px;
+  margin-left: 10px;
+}
+/* line 412, ../../../app/stylesheets/speed_grader.sass */
+#grade_container .turnitin_similarity_score:hover {
+  text-decoration: none;
+}
+
+/* line 414, ../../../app/stylesheets/speed_grader.sass */
+#submission_details {
+  border-bottom: 1px solid #999999;
+  padding-bottom: 3px;
+}
+/* line 417, ../../../app/stylesheets/speed_grader.sass */
+#submission_details a {
+  font-size: 12px;
+}
+/* line 419, ../../../app/stylesheets/speed_grader.sass */
+#submission_details .on_time {
+  color: #004b00;
+}
+/* line 421, ../../../app/stylesheets/speed_grader.sass */
+#submission_details .late {
+  color: #d12f19;
+  font-weight: bold;
+  white-space: nowrap;
+}
+/* line 425, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_late_notice {
+  color: #d12f19;
+  font-weight: bold;
+  margin-left: 3px;
+}
+/* line 429, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_not_newest_notice {
+  color: #eb9a00;
+  font-weight: bold;
+  margin-left: 3px;
+}
+/* line 433, ../../../app/stylesheets/speed_grader.sass */
+#submission_details select {
+  width: 99%;
+}
+/* line 435, ../../../app/stylesheets/speed_grader.sass */
+#submission_details label {
+  font-weight: bold;
+  margin-left: 3px;
+}
+/* line 438, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list {
+  overflow: auto;
+}
+/* line 440, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file {
+  padding: 1px 16px 1px 19px;
+  position: relative;
+}
+/* line 443, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file .turnitin_similarity_score {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background-color: white;
+  font-size: 0.7em;
+  padding-bottom: 0;
+  color: #444444;
+  text-decoration: none;
+  margin-top: -2px;
+}
+/* line 453, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file .turnitin_similarity_score:hover {
+  text-decoration: none;
+}
+/* line 455, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file .submission-file-download {
+  display: block;
+  opacity: 0.5;
+  -ms-filter: alpha(Opacity=50);
+  filter: alpha(Opacity=50);
+  background: url("/images/download.png") no-repeat top right;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  right: 1px;
+  text-indent: -9999px;
+}
+/* line 465, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file:hover {
+  background-color: #dcecfb;
+}
+/* line 467, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file:hover .turnitin_similarity_score {
+  display: block;
+}
+/* line 469, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file:hover .submission-file-download {
+  display: block;
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 472, ../../../app/stylesheets/speed_grader.sass */
+#submission_details #submission_files_list .submission-file-selected {
+  background: #dcecfb url("/images/pass.png") no-repeat center left;
+  font-weight: bold;
+}
+
+/* line 476, ../../../app/stylesheets/speed_grader.sass */
+#section-menu {
+  position: absolute;
+  overflow: visible;
+}
+/* line 479, ../../../app/stylesheets/speed_grader.sass */
+#section-menu #section-menu-link {
+  display: block;
+  height: 20px;
+  line-height: 19px;
+  padding-left: 8px;
+  background: url("/images/arrow_right.png") no-repeat center right;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 487, ../../../app/stylesheets/speed_grader.sass */
+#section-menu #section_currently_showing {
+  display: inline;
+}
+/* line 489, ../../../app/stylesheets/speed_grader.sass */
+#section-menu ul {
+  position: absolute;
+  right: -215px;
+  width: 215px;
+  top: 0;
+  background-color: white;
+  padding: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+/* line 497, ../../../app/stylesheets/speed_grader.sass */
+#section-menu ul li {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+/* line 501, ../../../app/stylesheets/speed_grader.sass */
+#section-menu ul li a {
+  line-height: 21px;
+}
+/* line 503, ../../../app/stylesheets/speed_grader.sass */
+#section-menu ul li a.selected {
+  font-weight: bold;
+}

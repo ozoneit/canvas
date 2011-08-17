@@ -1,0 +1,60 @@
+/* line 1, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_month {
+  padding: 10px 0 0;
+}
+
+/* line 4, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini-cal-header {
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 14px;
+  padding: 0 8px;
+}
+/* line 9, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini-cal-header img {
+  vertical-align: middle;
+}
+/* line 11, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini-cal-header .prev_month_link {
+  float: left;
+}
+/* line 13, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini-cal-header .next_month_link {
+  float: right;
+}
+
+/* line 16, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar {
+  width: 100%;
+  background-color: #e6e7e8;
+}
+/* line 19, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day {
+  padding: 0;
+  height: 21px;
+  font-size: 0.8em;
+  color: #444444;
+  text-align: center;
+  cursor: pointer;
+  width: 14%;
+}
+/* line 27, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day.has_event {
+  background-color: #cccccc;
+}
+/* line 29, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day.today {
+  background-color: #f1f1dd;
+}
+/* line 31, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day.other_month {
+  color: #888888;
+}
+/* line 33, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day:hover, .mini_calendar .day.related, .mini_calendar .day.drop_target {
+  background-image: url("/images/4_percent_opacity.png");
+}
+/* line 35, ../../../app/stylesheets/g_mini_calendar.sass */
+.mini_calendar .day.drop_target {
+  background-color: #aaaaaa;
+}

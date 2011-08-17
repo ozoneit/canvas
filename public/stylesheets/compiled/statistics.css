@@ -1,0 +1,78 @@
+/* line 1, ../../../app/stylesheets/statistics.sass */
+ul.item_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 20px 20px;
+  max-height: 150px;
+  overflow: auto;
+}
+/* line 7, ../../../app/stylesheets/statistics.sass */
+ul.item_list li {
+  display: block;
+}
+/* line 9, ../../../app/stylesheets/statistics.sass */
+ul.item_list li a.header {
+  font-size: 1em;
+}
+/* line 11, ../../../app/stylesheets/statistics.sass */
+ul.item_list li div.sub_header {
+  font-size: 0.8em;
+  color: #888888;
+  margin-top: -5px;
+  margin-bottom: 0.5em;
+  margin-left: 5px;
+}
+
+/* line 18, ../../../app/stylesheets/statistics.sass */
+table.numbers_table {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  border-collapse: collapse;
+}
+/* line 23, ../../../app/stylesheets/statistics.sass */
+table.numbers_table th {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-bottom: 1px dotted #cccccc;
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+/* line 29, ../../../app/stylesheets/statistics.sass */
+table.numbers_table td {
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-bottom: 1px dotted #cccccc;
+}
+
+/* line 36, ../../../app/stylesheets/statistics.sass */
+.stats table {
+  margin: 0 20px;
+}
+/* line 39, ../../../app/stylesheets/statistics.sass */
+.stats table th {
+  border-bottom: 1px dotted #cccccc;
+  padding: 2px 10px;
+  text-align: left;
+}
+/* line 44, ../../../app/stylesheets/statistics.sass */
+.stats table td {
+  border-bottom: 1px dotted #cccccc;
+  padding: 2px 10px;
+}
+/* line 48, ../../../app/stylesheets/statistics.sass */
+.stats table td.indent {
+  padding-left: 25px;
+  font-size: 0.8em;
+}
+/* line 52, ../../../app/stylesheets/statistics.sass */
+.stats table .small {
+  font-size: 0.8em;
+}
+
+/* line 55, ../../../app/stylesheets/statistics.sass */
+#page_views_by_day td {
+  border: none;
+}

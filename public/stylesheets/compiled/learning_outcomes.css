@@ -1,0 +1,364 @@
+/* line 3, ../../../app/stylesheets/learning_outcomes.sass */
+input.outcome_rating_description {
+  width: 200px;
+}
+
+/* line 6, ../../../app/stylesheets/learning_outcomes.sass */
+.criterion_title {
+  white-space: nowrap;
+}
+
+/* line 8, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result {
+  margin: 10px 0;
+}
+/* line 10, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result .title {
+  font-weight: bold;
+}
+/* line 12, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result .scoring {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+/* line 15, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result .last_attempt {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+/* line 18, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result .mastery {
+  display: none;
+}
+/* line 20, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result .results_link {
+  font-size: 0.8em;
+  margin-left: 20px;
+}
+/* line 24, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_result.mastery_result .mastery {
+  display: inline;
+}
+
+/* line 27, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group > .header {
+  display: none;
+}
+/* line 29, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group {
+  border: 1px solid #cccccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px 0 10px;
+}
+/* line 34, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header {
+  position: relative;
+  background-color: #eeeeee;
+  display: block;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px 10px 2px;
+}
+/* line 37, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header .reorder_link {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  visibility: hidden;
+}
+/* line 43, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header .title {
+  margin: 0 44px 0 20px;
+  font-size: 1em;
+  font-weight: bold;
+}
+/* line 47, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header .links {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  opacity: 0.5;
+}
+/* line 51, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header .links a img {
+  visibility: hidden;
+}
+/* line 54, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .header .description {
+  margin-left: 20px;
+}
+/* line 60, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group:hover > .header .links {
+  float: right;
+  opacity: 1;
+}
+/* line 63, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group:hover > .header .links a img {
+  visibility: visible;
+}
+/* line 65, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group:hover > .header .reorder_link {
+  visibility: visible;
+}
+/* line 67, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group > .content {
+  padding: 5px 10x;
+  min-height: 40px;
+  margin: 5px 0;
+}
+/* line 71, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group .outcome_group .outcome_group {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 75, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group form.outcome_group > .header {
+  border-bottom-width: 0;
+}
+/* line 78, ../../../app/stylesheets/learning_outcomes.sass */
+.outcome_group > .header .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 82, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome {
+  margin-bottom: 10px;
+  background-color: white;
+  margin: 5px 11px 10px;
+  display: block;
+}
+/* line 87, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .header {
+  padding: 0 44px 0 20px;
+  position: relative;
+  border-bottom: 1px solid #888888;
+}
+/* line 90, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .header .reorder_link {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  visibility: hidden;
+}
+/* line 95, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .header .short_description {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 98, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .header .links {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  opacity: 0.5;
+}
+/* line 103, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .header .links a img {
+  visibility: hidden;
+}
+/* line 107, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome:hover .links {
+  opacity: 1;
+}
+/* line 109, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome:hover .links a img {
+  visibility: visible;
+}
+/* line 111, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome:hover .reorder_link {
+  visibility: visible;
+}
+/* line 113, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body {
+  margin: 5px 25px;
+}
+/* line 115, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body > .description {
+  display: none;
+}
+/* line 117, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .hide_details_link {
+  display: none;
+}
+/* line 119, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .aligned_artifacts {
+  display: none;
+}
+/* line 121, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion {
+  display: none;
+}
+/* line 123, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion {
+  margin-top: 5px;
+  border-top: 1px solid #cccccc;
+  width: 100%;
+}
+/* line 127, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion td {
+  vertical-align: top;
+  padding-bottom: 3px;
+}
+/* line 130, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion td.add_holder {
+  padding-left: 10px;
+}
+/* line 132, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion td.criterion_title {
+  padding-right: 10px;
+}
+/* line 134, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion .rating {
+  font-size: 0.8em;
+}
+/* line 137, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .rubric_criterion .rating td, .learning_outcome .body .rubric_criterion .add_holder td {
+  padding-left: 20px;
+}
+/* line 139, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome .body .aligned_artifacts {
+  font-size: 0.8em;
+}
+/* line 142, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome.expanded .body > .description {
+  display: block;
+}
+/* line 144, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome.expanded .rubric_criterion {
+  display: inline-table;
+}
+/* line 146, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome.expanded .aligned_artifacts {
+  display: block;
+}
+/* line 148, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome.expanded .show_details_link {
+  display: none;
+}
+/* line 150, ../../../app/stylesheets/learning_outcomes.sass */
+.learning_outcome.expanded .hide_details_link {
+  display: inline;
+}
+
+/* line 153, ../../../app/stylesheets/learning_outcomes.sass */
+#edit_outcome_form .header {
+  padding-bottom: 5px;
+}
+/* line 155, ../../../app/stylesheets/learning_outcomes.sass */
+#edit_outcome_form .rubric_criterion {
+  margin-left: 0;
+  border-collapse: collapse;
+}
+/* line 158, ../../../app/stylesheets/learning_outcomes.sass */
+#edit_outcome_form .rubric_criterion td {
+  padding: 5px 2px;
+}
+/* line 160, ../../../app/stylesheets/learning_outcomes.sass */
+#edit_outcome_form .rubric_criterion .rating td, #edit_outcome_form .rubric_criterion .add_holder td {
+  padding: 5px 5px 5px 20px;
+}
+
+/* line 164, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments {
+  list-style-type: none;
+  padding-left: 20px;
+}
+/* line 167, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li {
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  display: block;
+}
+/* line 171, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 174, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li .header {
+  float: left;
+}
+/* line 176, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li .links {
+  float: right;
+  opacity: 0.5;
+}
+/* line 179, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.hover_alignment {
+  background-color: #eeeeee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 182, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.hover_alignment .links {
+  opacity: 1;
+}
+/* line 184, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li .type_icon {
+  background: url(/images/file.png) no-repeat left top;
+}
+/* line 187, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.attachment .type_icon {
+  background-image: url(/images/file_download.png);
+}
+/* line 190, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.discussion_topic .type_icon {
+  background-image: url(/images/word_bubble.png);
+}
+/* line 193, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.assignment .type_icon {
+  background-image: url(/images/assignment.png);
+}
+/* line 196, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.quiz .type_icon {
+  background-image: url(/images/quiz.png);
+}
+/* line 199, ../../../app/stylesheets/learning_outcomes.sass */
+#alignments li.external_url .type_icon {
+  background-image: url(/images/link.png);
+}
+
+/* line 202, ../../../app/stylesheets/learning_outcomes.sass */
+#artifacts {
+  list-style-type: none;
+  padding-left: 20px;
+}
+/* line 205, ../../../app/stylesheets/learning_outcomes.sass */
+#artifacts li {
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  display: block;
+}
+/* line 209, ../../../app/stylesheets/learning_outcomes.sass */
+#artifacts li.hover_artifact {
+  background-color: #eeeeee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 212, ../../../app/stylesheets/learning_outcomes.sass */
+#artifacts li .scoring {
+  margin-bottom: 5px;
+}
+/* line 215, ../../../app/stylesheets/learning_outcomes.sass */
+#artifacts li .title {
+  font-weight: bold;
+}
+
+/* line 220, ../../../app/stylesheets/learning_outcomes.sass */
+.outcomes .uneditable .outcome_group .header .reorder_link {
+  display: none;
+}

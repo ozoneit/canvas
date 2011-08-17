@@ -1,0 +1,505 @@
+/* line 2, ../../../app/stylesheets/g_assignments.sass */
+.move_icon, .group_move_icon {
+  vertical-align: middle;
+  cursor: move;
+}
+
+/* line 7, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group {
+  margin: 1px 2px 2px 2px;
+  width: auto;
+  border: 1px solid #999999;
+  color: black;
+  background-color: white;
+}
+/* line 14, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group .group_move_icon, #groups .assignment_group .add_assignment_link, #groups .assignment_group .edit_group_link, #groups .assignment_group .delete_group_link {
+  display: none;
+}
+/* line 16, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group .group_move {
+  visibility: hidden;
+}
+/* line 19, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group.group-hover {
+  border-width: 2px;
+}
+/* line 21, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group.group-hover div.header {
+  padding: 0px 0px 0px 5px;
+}
+/* line 23, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group.group-hover div.assignment_list {
+  padding: 0 0px 0px 0px;
+}
+/* line 26, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group.droppable_group {
+  border: 2px solid #999999;
+}
+/* line 30, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.assignment_list {
+  padding: 0 1px 1px 1px;
+  min-height: 10px;
+}
+/* line 33, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header {
+  width: auto;
+  border-bottom: 1px solid #999999;
+  background: #cccccc;
+  padding: 1px 1px 0px 6px;
+  _height: 10px;
+  color: #666666;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 44, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header .links a {
+  opacity: 0.5;
+}
+/* line 47, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header .group_move .group_move_icon {
+  visibility: hidden;
+}
+/* line 52, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header:hover .links a {
+  opacity: 1;
+}
+/* line 54, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header:hover .group_move .group_move_icon {
+  visibility: visible;
+}
+/* line 57, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.header .assignment_count {
+  font-size: 0.8em;
+}
+/* line 60, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.padding {
+  padding: 0px 0px 5px 0px;
+  display: none;
+}
+/* line 64, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.load_pending {
+  background-image: url(/images/ajax-loader-small-ccc.gif);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+/* line 69, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div .edit_assignment_link, #groups .assignment_group div .delete_assignment_link {
+  display: none;
+}
+/* line 71, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div .context_name {
+  display: none;
+}
+/* line 73, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div .details {
+  display: none;
+}
+/* line 75, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div span.no_points {
+  display: none;
+}
+/* line 78, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.points_uneditable form span.points {
+  display: none;
+}
+/* line 80, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.points_uneditable form span.no_points {
+  display: inline;
+}
+/* line 82, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data {
+  float: left;
+  border: 0px;
+  padding: 2px 5px 2px 5px;
+}
+/* line 87, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.assignment_title {
+  width: 25%;
+  margin-right: 4%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 92, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.assignment_title a {
+  color: #4b7092;
+}
+/* line 94, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.assignment_due {
+  width: 27%;
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  color: #888888;
+  display: block;
+}
+/* line 100, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.assignment_points {
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  color: #888888;
+}
+/* line 104, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.buttons {
+  float: right;
+}
+/* line 107, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.links {
+  text-align: right;
+  float: right;
+  padding-right: 10px;
+  opacity: 0.5;
+  display: none;
+}
+/* line 114, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.links:hover {
+  opacity: 1;
+}
+/* line 117, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.date {
+  color: #888888;
+}
+/* line 120, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.name {
+  margin-right: 10px;
+  width: 200px;
+}
+/* line 124, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.move {
+  padding-left: 5px;
+  width: 20px;
+  display: block;
+}
+/* line 129, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div div.data.move .move_icon {
+  visibility: hidden;
+}
+/* line 132, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.assignment-hover, #groups .assignment_group div .ui-sortable-helper {
+  background-color: #eeeeee;
+}
+/* line 135, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.assignment-hover div.data.links, #groups .assignment_group div .ui-sortable-helper div.data.links {
+  display: block;
+}
+/* line 138, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.assignment-hover div.data.move .move_icon, #groups .assignment_group div .ui-sortable-helper div.data.move .move_icon {
+  visibility: visible;
+}
+/* line 141, ../../../app/stylesheets/g_assignments.sass */
+#groups .assignment_group div.editing {
+  background-color: #dddddd;
+}
+/* line 145, ../../../app/stylesheets/g_assignments.sass */
+#groups.groups_editable .assignment_group .group_move_icon, #groups.groups_editable .assignment_group .add_assignment_link, #groups.groups_editable .assignment_group .edit_group_link, #groups.groups_editable .assignment_group .delete_group_link {
+  display: inline;
+}
+/* line 147, ../../../app/stylesheets/g_assignments.sass */
+#groups.groups_editable .assignment_group .group_move {
+  visibility: visible;
+}
+/* line 151, ../../../app/stylesheets/g_assignments.sass */
+#groups.groups_editable .assignment_group div .edit_assignment_link, #groups.groups_editable .assignment_group div .delete_assignment_link {
+  display: inline;
+}
+
+/* line 156, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment {
+  min-height: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 159, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.last {
+  border-bottom-width: 0px;
+}
+/* line 162, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment .content {
+  padding-top: 3px;
+}
+/* line 166, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment .details {
+  display: block;
+  margin-left: 60px;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+/* line 171, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment .grade {
+  display: none;
+}
+/* line 174, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.group_assignment_graded {
+  color: #aaaaaa;
+}
+/* line 176, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.group_assignment_graded a {
+  color: #888888;
+}
+/* line 178, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.group_assignment_graded a.grade {
+  color: #444444;
+  font-weight: bold;
+  display: inline;
+}
+/* line 183, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.group_assignment_ungraded .assignment_due {
+  font-weight: bold;
+  color: #888822;
+}
+/* line 187, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment.group_assignment_overdue .assignment_due {
+  font-weight: bold;
+  color: #cc0000;
+}
+/* line 190, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment:hover {
+  background-color: #eeeeee;
+}
+/* line 192, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment:hover .course_name {
+  opacity: 1 !important;
+  -moz-opacity: 1 !important;
+  filter: alpha(opacity=1) !important;
+}
+/* line 196, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data {
+  float: left;
+  border: 0px;
+  padding: 2px 5px 2px 5px;
+}
+/* line 201, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.assignment_title {
+  width: 40%;
+  margin-left: 30px;
+}
+/* line 204, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.assignment_title .title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* line 207, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.assignment_title .course_name {
+  font-size: 0.8em;
+  line-height: 1.2em;
+  padding: 2px 7px;
+  color: inherit;
+  opacity: 0.75;
+  -ms-filter: alpha(Opacity=75);
+  filter: alpha(Opacity=75);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 214, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.assignment_due {
+  width: 30%;
+  font-size: 1em;
+  padding-top: 0.5em;
+  display: block;
+}
+/* line 219, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.assignment_points {
+  font-size: 0.9em;
+  padding-top: 0.5em;
+}
+/* line 222, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.links {
+  display: none;
+}
+/* line 225, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .group_assignment div.data.move {
+  display: none;
+}
+/* line 229, ../../../app/stylesheets/g_assignments.sass */
+#assignments_for_student .assignment_list.show_context .group_assignment .context_name {
+  display: block;
+}
+
+/* line 233, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group {
+  margin: 0 0.5em 1.5em 0.5em;
+  width: auto;
+  border: 1px solid #999999;
+  color: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 240, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_move_icon, #groups_for_student .assignment_group .add_assignment_link, #groups_for_student .assignment_group .edit_group_link, #groups_for_student .assignment_group .delete_group_link {
+  display: none;
+}
+/* line 242, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_move {
+  visibility: hidden;
+}
+/* line 246, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group div.header {
+  width: auto;
+  border-bottom: 1px solid #999999;
+  background-color: #dddddd;
+  padding-left: 25px;
+  color: #666666;
+  margin-bottom: 0px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -o-border-top-left-radius: 3px;
+  -ms-border-top-left-radius: 3px;
+  -khtml-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -o-border-top-right-radius: 3px;
+  -ms-border-top-right-radius: 3px;
+  -khtml-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 255, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group div.header .group_name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* line 259, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group div.header .more_info_brief {
+  line-height: 1.7em;
+}
+/* line 261, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group div.header .links {
+  display: none;
+}
+/* line 264, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group div.padding {
+  padding: 0px 0px 5px 0px;
+  display: none;
+}
+/* line 268, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment {
+  min-height: 30px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  color: #444444;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 274, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment:hover {
+  background-color: #eeeeee;
+}
+/* line 276, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment .content {
+  padding-top: 3px;
+}
+/* line 279, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment.group_assignment_graded {
+  color: #aaaaaa;
+}
+/* line 281, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment.group_assignment_graded a {
+  color: #888888;
+}
+/* line 284, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment.group_assignment_overdue .assignment_due {
+  font-weight: bold;
+  color: #cc0000;
+}
+/* line 288, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data {
+  float: left;
+  border: 0px;
+  padding: 2px 5px 2px 5px;
+}
+/* line 293, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.assignment_title {
+  width: 40%;
+  font-weight: bold;
+  margin-left: 30px;
+}
+/* line 297, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.assignment_title .context_name {
+  font-weight: normal;
+  font-size: 0.7em;
+  padding-left: 10px;
+  color: #888888;
+}
+/* line 302, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.assignment_due {
+  width: 30%;
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  display: block;
+}
+/* line 307, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.assignment_points {
+  font-size: 0.8em;
+  padding-top: 0.5em;
+}
+/* line 310, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.buttons {
+  float: right;
+}
+/* line 313, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.links {
+  display: none;
+}
+/* line 316, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.name {
+  margin-right: 10px;
+  font-weight: bold;
+  width: 200px;
+}
+/* line 321, ../../../app/stylesheets/g_assignments.sass */
+#groups_for_student .assignment_group .group_assignment div.data.move {
+  display: none;
+}
+
+/* line 325, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table input.weight {
+  width: 35px;
+}
+/* line 327, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table th, #group_weight_table td {
+  padding: 1px;
+}
+/* line 329, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table th {
+  font-weight: bold;
+  border-bottom: 1px solid #888888;
+}
+/* line 332, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table td.total {
+  font-weight: bold;
+}
+/* line 335, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table tr.group_weight .move {
+  cursor: move;
+  visibility: hidden;
+}
+/* line 338, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table tr.group_weight td {
+  border-bottom: 1px solid #aaaaaa;
+}
+/* line 341, ../../../app/stylesheets/g_assignments.sass */
+#group_weight_table .group_weight_hover .move {
+  visibility: visible;
+}
+
+/* line 344, ../../../app/stylesheets/g_assignments.sass */
+#full_assignment_details h2 {
+  margin: 0px;
+}
+
+/* line 349, ../../../app/stylesheets/g_assignments.sass */
+.show-only-from a {
+  display: block;
+  margin-top: 3px;
+  color: #595959;
+  padding-left: 5px;
+}

@@ -1,0 +1,85 @@
+@media print {
+  /* line 10, ../../../app/stylesheets/print.scss */
+  .no-print,
+  #header,
+  #footer,
+  #right-side-wrapper,
+  #left-side {
+    display: none !important;
+  }
+
+  /* line 14, ../../../app/stylesheets/print.scss */
+  #main,
+  #wrapper {
+    margin: 0 !important;
+    border: 0 none !important;
+  }
+
+  /* line 18, ../../../app/stylesheets/print.scss */
+  html, body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10pt;
+    background: transparent none !important;
+  }
+
+  /* line 25, ../../../app/stylesheets/print.scss */
+  #wrapper-container, #content, #wiki_show_view_main {
+    overflow: visible !important;
+  }
+
+  /* line 28, ../../../app/stylesheets/print.scss */
+  #content {
+    width: auto;
+    padding: 0 !important;
+  }
+  /* line 32, ../../../app/stylesheets/print.scss */
+  #content .fill_height_div {
+    overflow: visible !important;
+  }
+
+  /* line 36, ../../../app/stylesheets/print.scss */
+  a:link, a:visited {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* line 40, ../../../app/stylesheets/print.scss */
+  #breadcrumbs {
+    -moz-box-shadow: white 0 0 0 0;
+    -webkit-box-shadow: white 0 0 0 0;
+    -o-box-shadow: white 0 0 0 0;
+    box-shadow: white 0 0 0 0;
+  }
+  /* line 43, ../../../app/stylesheets/print.scss */
+  #breadcrumbs ul li {
+    padding-left: 10px;
+  }
+  /* line 45, ../../../app/stylesheets/print.scss */
+  #breadcrumbs ul li:after {
+    content: "   →   ";
+  }
+  /* line 47, ../../../app/stylesheets/print.scss */
+  #breadcrumbs ul li:last-child:after {
+    content: "";
+  }
+  /* line 49, ../../../app/stylesheets/print.scss */
+  #breadcrumbs ul li.home {
+    display: none;
+  }
+  /* line 51, ../../../app/stylesheets/print.scss */
+  #breadcrumbs ul a {
+    text-decoration: none;
+    padding-right: 10px;
+  }
+
+  /* line 56, ../../../app/stylesheets/print.scss */
+  a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+  }
+  /* line 59, ../../../app/stylesheets/print.scss */
+  a[href^="/"]:after, a[href^="#"]:after {
+    content: "";
+  }
+}

@@ -1,0 +1,22 @@
+/* line 3, ../../../app/stylesheets/roster_user.sass */
+fieldset {
+  border: 1px solid #cccccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+/* line 8, ../../../app/stylesheets/roster_user.sass */
+fieldset legend {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* line 12, ../../../app/stylesheets/roster_user.sass */
+table.details td {
+  padding: 1px 5px;
+}

@@ -1,0 +1,159 @@
+/* line 3, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs {
+  font-size: 0.8em;
+}
+/* line 6, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs #tree1 {
+  margin: 10px 0;
+}
+/* line 9, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs h4 {
+  margin: 0 0 0.5em;
+}
+/* line 12, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .ui-tabs-panel {
+  padding: 0.5em 0.8em;
+}
+/* line 15, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .wiki_pages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 20, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .wiki_pages a:hover {
+  text-decoration: underline;
+}
+/* line 23, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .page_list {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+/* line 26, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .page_list li {
+  padding-left: 20px;
+  background-image: url(/images/tick.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+/* line 32, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .page_list li:hover {
+  background-image: url(/images/back.png);
+  background-color: #eeeeee;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 38, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs #pages_accordion span.header {
+  display: block;
+}
+/* line 41, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs #pages_accordion .ui-accordion-header a {
+  padding: 0.1em 0.5em 0.1em 2.2em;
+}
+/* line 44, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs #pages_accordion .ui-accordion-content {
+  padding: 0.5em;
+  height: 190px;
+  overflow: auto;
+}
+/* line 49, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs #pages_accordion .add {
+  display: block;
+}
+
+/* line 52, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list_holder {
+  position: relative;
+}
+/* line 54, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list_holder .dragging_message {
+  display: none;
+}
+/* line 57, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list_holder.file_drag .image_list * {
+  visibility: hidden;
+}
+/* line 59, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list_holder.file_drag .dragging_message {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-left: 20px;
+  background: transparent url(/images/page_white_get.png) no-repeat left center;
+}
+
+/* line 68, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .uploading_file_list {
+  margin-top: 5px;
+}
+/* line 70, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .uploading_file_list .uploading {
+  font-weight: bold;
+}
+/* line 72, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .uploading_file_list .remaining {
+  font-size: 0.8em;
+  color: #888888;
+  margin-left: 7px;
+  margin-top: -5px;
+}
+
+/* line 78, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list .img_link {
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  margin: 3px;
+  padding: 3px;
+  float: left;
+}
+/* line 85, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list .img_link .img_holder {
+  min-height: 50px;
+}
+/* line 87, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list .img_link img {
+  max-height: 50px;
+  max-width: 200px;
+}
+/* line 90, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .image_list .img_link.default_image {
+  display: none;
+}
+
+/* line 92, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .file_list_holder {
+  position: relative;
+}
+/* line 94, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .file_list_holder .dragging_message {
+  display: none;
+}
+/* line 97, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .file_list_holder.file_drag .file_list * {
+  visibility: hidden;
+}
+/* line 99, ../../../app/stylesheets/g_wiki_sidebar.sass */
+#editor_tabs .file_list_holder.file_drag .dragging_message {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-left: 20px;
+  background: transparent url(/images/page_white_get.png) no-repeat left center;
+}
+
+/* line 109, ../../../app/stylesheets/g_wiki_sidebar.sass */
+.ui-effects-transfer {
+  border: 2px dashed black;
+}

@@ -1,0 +1,134 @@
+/* line 3, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview {
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  list-style: none;
+  min-width: 300px;
+  -moz-border-radius: 0.6em;
+  -webkit-border-radius: 0.6em;
+  -o-border-radius: 0.6em;
+  -ms-border-radius: 0.6em;
+  -khtml-border-radius: 0.6em;
+  border-radius: 0.6em;
+}
+/* line 12, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:first-child {
+  -moz-border-radius-topleft: 0.6em;
+  -webkit-border-top-left-radius: 0.6em;
+  -o-border-top-left-radius: 0.6em;
+  -ms-border-top-left-radius: 0.6em;
+  -khtml-border-top-left-radius: 0.6em;
+  border-top-left-radius: 0.6em;
+  -moz-border-radius-topright: 0.6em;
+  -webkit-border-top-right-radius: 0.6em;
+  -o-border-top-right-radius: 0.6em;
+  -ms-border-top-right-radius: 0.6em;
+  -khtml-border-top-right-radius: 0.6em;
+  border-top-right-radius: 0.6em;
+}
+/* line 13, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:last-child {
+  -moz-border-radius-bottomleft: 0.6em;
+  -webkit-border-bottom-left-radius: 0.6em;
+  -o-border-bottom-left-radius: 0.6em;
+  -ms-border-bottom-left-radius: 0.6em;
+  -khtml-border-bottom-left-radius: 0.6em;
+  border-bottom-left-radius: 0.6em;
+  -moz-border-radius-bottomright: 0.6em;
+  -webkit-border-bottom-right-radius: 0.6em;
+  -o-border-bottom-right-radius: 0.6em;
+  -ms-border-bottom-right-radius: 0.6em;
+  -khtml-border-bottom-right-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
+}
+/* line 14, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview, .ui-listview li:first-child, .ui-listview li:last-child {
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 20, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li {
+  border: 1px solid #ccc;
+  border-bottom-width: 0;
+  background: #eee;
+  font-weight: bold;
+  color: #444;
+  text-shadow: 0 1px 1px #f6f6f6;
+  text-decoration: none;
+  background-image: -moz-linear-gradient(top, #fdfdfd, #eeeeee);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #eeeeee));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eeeeee')";
+}
+/* line 29, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li .ui-listview-text {
+  display: block;
+  position: relative;
+  height: 100%;
+  padding: .7em 15px .7em 44px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1em;
+  /*this is to override the .file, .pdf, .doc etc 10px size*/
+  background-position: 15px center;
+  /*overrides background-position left of attachment_links*/
+}
+/* line 38, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:hover {
+  border-color: #bbb;
+  background: #dadada;
+  font-weight: bold;
+  color: #101010;
+  text-decoration: none;
+  text-shadow: 0 1px 1px 	#fff;
+  background-image: -moz-linear-gradient(top, #ededed, #dadada);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ededed), color-stop(1, #dadada));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ededed', EndColorStr='#dadada')";
+}
+/* line 46, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:hover a {
+  text-decoration: none;
+}
+/* line 48, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:active {
+  border: 1px solid 		#999;
+  background: #999;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 0 -1px 1px #999999;
+  text-decoration: none;
+  background-image: -moz-linear-gradient(top, #cccccc, #aaaaaa);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cccccc), color-stop(1, #aaaaaa));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#aaaaaa')";
+  outline: none;
+}
+/* line 58, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li:active a {
+  color: #fff;
+}
+/* line 60, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li .ui-listview-right {
+  display: block;
+  float: right;
+}
+/* line 63, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li .ui-listview-right .turnitin_similarity_score {
+  margin-right: 10px;
+}
+/* line 68, ../../../app/stylesheets/g_util_ui_listview.scss */
+.ui-listview li.ui-listview-header, .ui-listview li.ui-listview-header:hover {
+  padding: .5em 15px;
+  font-size: 14px;
+  border: 1px solid #b3cbbc;
+  background: #5e87b0;
+  color: #747575;
+  font-weight: normal;
+  text-shadow: 0 -1px 1px #cce6d6;
+  background-image: -moz-linear-gradient(top, #c8e0d1, #b3cbbc);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c8e0d1), color-stop(1, #b3cbbc));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c8e0d1', EndColorStr='#b3cbbc')";
+}

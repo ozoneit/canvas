@@ -1,0 +1,40 @@
+/* line 1, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft, #datagrid_top, #datagrid_left, #datagrid_data {
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 5, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft .content, #datagrid_top .content, #datagrid_left .content, #datagrid_data .content {
+  position: absolute;
+}
+/* line 8, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft .hide_row, #datagrid_topleft .hide_col, #datagrid_top .hide_row, #datagrid_top .hide_col, #datagrid_left .hide_row, #datagrid_left .hide_col, #datagrid_data .hide_row, #datagrid_data .hide_col {
+  visibility: hidden;
+}
+/* line 10, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft .hide_row > div, #datagrid_topleft .hide_col > div, #datagrid_top .hide_row > div, #datagrid_top .hide_col > div, #datagrid_left .hide_row > div, #datagrid_left .hide_col > div, #datagrid_data .hide_row > div, #datagrid_data .hide_col > div {
+  display: none;
+}
+/* line 14, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft .content .row, #datagrid_top .content .row, #datagrid_left .content .row, #datagrid_data .content .row {
+  position: absolute;
+}
+/* line 18, ../../../app/stylesheets/datagrid.sass */
+#datagrid_topleft .content .cell, #datagrid_top .content .cell, #datagrid_left .content .cell, #datagrid_data .content .cell {
+  float: left;
+  border: solid #cccccc;
+  border-width: 0 1px 1px 0;
+  overflow: hidden;
+}
+
+/* line 29, ../../../app/stylesheets/datagrid.sass */
+.event_pending {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 33, ../../../app/stylesheets/datagrid.sass */
+#datagrid_data {
+  overflow: auto;
+}

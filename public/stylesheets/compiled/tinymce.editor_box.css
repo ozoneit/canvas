@@ -1,0 +1,25 @@
+/* line 1, ../../../app/stylesheets/tinymce.editor_box.sass */
+a.youtube_link_to_box, link.youbute_link_to_box {
+  width: 425px;
+  border: 1px solid #aaaaaa;
+  display: block;
+  background: transparent url(/images/youtube_embed.png) no-repeat top left;
+  padding: 60px 5px 5px;
+}
+
+/* line 8, ../../../app/stylesheets/tinymce.editor_box.sass */
+.iframe_placeholder {
+  border: 1px solid #aaaaaa;
+  text-decoration: none;
+  display: block;
+  background: transparent url(/images/cancel.png) no-repeat top left;
+}
+
+/* line 14, ../../../app/stylesheets/tinymce.editor_box.sass */
+a.instructure_inline_media_comment {
+  display: block;
+  width: 270px;
+  border: 1px solid #aaaaaa;
+  background: transparent url(/images/media_comment_embed.png) no-repeat top left;
+  padding: 60px 5px 5px;
+}

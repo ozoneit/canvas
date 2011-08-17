@@ -1,0 +1,102 @@
+/* line 3, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history {
+  margin: 0;
+  padding: 1em;
+}
+/* line 7, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history li {
+  list-style: none;
+}
+/* line 9, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history h4 {
+  margin: 0;
+}
+/* line 12, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header {
+  cursor: pointer;
+}
+/* line 14, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header a {
+  color: #124b87;
+  padding-right: 5px;
+  float: left;
+}
+/* line 18, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header .changes {
+  font-size: 10px;
+  width: 65px;
+  float: left;
+  text-align: center;
+  margin-right: 7px;
+  vertical-align: top;
+  line-height: 10px;
+  margin-top: 4px;
+  opacity: 0.5;
+  -ms-filter: alpha(Opacity=50);
+  filter: alpha(Opacity=50);
+}
+/* line 28, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header .ui-icon {
+  float: left;
+  opacity: 0;
+  -ms-filter: alpha(Opacity=0);
+  filter: alpha(Opacity=0);
+}
+/* line 32, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header:hover a {
+  text-decoration: underline;
+}
+/* line 34, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_header:hover .ui-icon, #gradebook-history .assignment_header:hover .changes {
+  opacity: 0.8;
+  -ms-filter: alpha(Opacity=80);
+  filter: alpha(Opacity=80);
+}
+/* line 37, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .assignment_details table {
+  width: 100%;
+  text-align: center;
+}
+/* line 40, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link {
+  font-weight: normal;
+  padding: 0 3px;
+  line-height: 20px;
+  text-decoration: none;
+}
+/* line 45, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link .revert, #gradebook-history .revert-grade-link .ui-icon {
+  opacity: 0;
+  -ms-filter: alpha(Opacity=0);
+  filter: alpha(Opacity=0);
+}
+/* line 47, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link .ui-icon {
+  display: inline;
+  padding: 0 0 0 18px;
+}
+/* line 50, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link .grade {
+  padding: 0 3px;
+  border-color: transparent;
+}
+/* line 54, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link:hover .revert, #gradebook-history .revert-grade-link:hover .ui-icon, #gradebook-history .revert-grade-link:focus .revert, #gradebook-history .revert-grade-link:focus .ui-icon {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 56, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .revert-grade-link:hover .grade, #gradebook-history .revert-grade-link:focus .grade {
+  border-color: inherit;
+  background-color: white;
+}
+/* line 60, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .current_grade {
+  padding-left: 17px;
+}
+/* line 63, ../../../app/stylesheets/g_gradebook_history.sass */
+#gradebook-history .loading {
+  background: #f5f8f9 url(/images/blue_small_loading.gif) no-repeat left center;
+  color: #bbbbbb;
+}

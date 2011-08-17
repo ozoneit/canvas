@@ -1,0 +1,235 @@
+/* line 2, ../../../app/stylesheets/g_media_comments.sass */
+#media_record_option_holder .record_option {
+  display: block;
+  margin: 0 2px 2px 2px;
+  padding: 4px;
+  border: 2px solid white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 9, ../../../app/stylesheets/g_media_comments.sass */
+#media_record_option_holder .record_option:hover {
+  border: 2px solid #aaaaaa;
+  background: #eeeeee;
+}
+
+/* line 13, ../../../app/stylesheets/g_media_comments.sass */
+#media_record_option_holder, #video_record_holder_holder, #audio_record_holder_holder {
+  float: left;
+}
+
+/* line 16, ../../../app/stylesheets/g_media_comments.sass */
+#media_record_option_holder .record_option.selected_option {
+  border: 2px solid #888888;
+  background: #cccccc;
+}
+
+/* line 20, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record_holder_holder, #video_record_holder_holder {
+  overflow: hidden;
+  position: relative;
+}
+/* line 23, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record_holder_holder #audio_record_holder_message, #audio_record_holder_holder #video_record_holder_message, #video_record_holder_holder #audio_record_holder_message, #video_record_holder_holder #video_record_holder_message {
+  width: 600px;
+  height: 600px;
+  z-index: 999;
+  background-color: #888888;
+  position: absolute;
+  display: none;
+}
+/* line 30, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record_holder_holder #audio_record_holder_message .recorder_message, #audio_record_holder_holder #video_record_holder_message .recorder_message, #video_record_holder_holder #audio_record_holder_message .recorder_message, #video_record_holder_holder #video_record_holder_message .recorder_message {
+  color: #eeeeee;
+  font-size: 1.5em;
+  opacity: 1;
+  margin: 100px 20px;
+  width: 300px;
+  text-align: center;
+}
+/* line 37, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record_holder_holder #audio_record_holder_message.saving, #audio_record_holder_holder #video_record_holder_message.saving, #video_record_holder_holder #audio_record_holder_message.saving, #video_record_holder_holder #video_record_holder_message.saving {
+  display: block;
+}
+
+/* line 40, ../../../app/stylesheets/g_media_comments.sass */
+#audio_upload_under button, #video_upload_under button {
+  width: 180px;
+  height: 50px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 46, ../../../app/stylesheets/g_media_comments.sass */
+#audio_upload, #video_upload {
+  position: absolute;
+  z-index: 999;
+}
+
+/* line 50, ../../../app/stylesheets/g_media_comments.sass */
+div#audio_upload, div#video_upload {
+  background: white;
+  font-size: 1.2em;
+}
+
+/* line 54, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_holder {
+  height: 240px;
+}
+
+/* line 57, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_title {
+  width: 200px;
+}
+
+/* line 60, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_holder .content {
+  margin-top: 8px;
+}
+
+/* line 63, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_file_size {
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+
+/* line 67, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_progress {
+  width: 300px;
+  height: 15px;
+}
+
+/* line 71, ../../../app/stylesheets/g_media_comments.sass */
+#media_upload_submit {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 76, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record_holder, #video_record_holder {
+  width: 320px;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #888888;
+}
+
+/* line 83, ../../../app/stylesheets/g_media_comments.sass */
+#audio_record, #video_record {
+  border: 0px solid #888888;
+  height: 240px;
+}
+
+/* line 87, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter {
+  width: 20px;
+  height: 240px;
+  float: right;
+  border: 0px solid #888888;
+  border-left-width: 0;
+  position: absolute;
+  top: 0;
+  left: 318px;
+  z-index: 999;
+}
+
+/* line 98, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter .audio_level {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #666666;
+  display: block;
+  margin: 2px;
+  background-color: lime;
+  visibility: hidden;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 108, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter .level_6 {
+  background-color: yellow;
+}
+
+/* line 111, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter .level_7 {
+  background-color: yellow;
+}
+
+/* line 114, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter .level_8 {
+  background-color: yellow;
+}
+
+/* line 117, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter .level_9 {
+  background-color: red;
+}
+
+/* line 120, ../../../app/stylesheets/g_media_comments.sass */
+.volume_meter.band_1 .level_0,
+.volume_meter.band_2 .level_0,
+.volume_meter.band_2 .level_1,
+.volume_meter.band_3 .level_0,
+.volume_meter.band_3 .level_1,
+.volume_meter.band_3 .level_2,
+.volume_meter.band_4 .level_0,
+.volume_meter.band_4 .level_1,
+.volume_meter.band_4 .level_2,
+.volume_meter.band_4 .level_3,
+.volume_meter.band_5 .level_0,
+.volume_meter.band_5 .level_1,
+.volume_meter.band_5 .level_2,
+.volume_meter.band_5 .level_3,
+.volume_meter.band_5 .level_4,
+.volume_meter.band_6 .level_0,
+.volume_meter.band_6 .level_1,
+.volume_meter.band_6 .level_2,
+.volume_meter.band_6 .level_3,
+.volume_meter.band_6 .level_4,
+.volume_meter.band_6 .level_5,
+.volume_meter.band_7 .level_0,
+.volume_meter.band_7 .level_1,
+.volume_meter.band_7 .level_2,
+.volume_meter.band_7 .level_3,
+.volume_meter.band_7 .level_4,
+.volume_meter.band_7 .level_5,
+.volume_meter.band_7 .level_6,
+.volume_meter.band_8 .level_0,
+.volume_meter.band_8 .level_1,
+.volume_meter.band_8 .level_2,
+.volume_meter.band_8 .level_3,
+.volume_meter.band_8 .level_4,
+.volume_meter.band_8 .level_5,
+.volume_meter.band_8 .level_6,
+.volume_meter.band_8 .level_7,
+.volume_meter.band_9 .level_0,
+.volume_meter.band_9 .level_1,
+.volume_meter.band_9 .level_2,
+.volume_meter.band_9 .level_3,
+.volume_meter.band_9 .level_4,
+.volume_meter.band_9 .level_5,
+.volume_meter.band_9 .level_6,
+.volume_meter.band_9 .level_7,
+.volume_meter.band_9 .level_8,
+.volume_meter.band_10 .level_0,
+.volume_meter.band_10 .level_1,
+.volume_meter.band_10 .level_2,
+.volume_meter.band_10 .level_3,
+.volume_meter.band_10 .level_4,
+.volume_meter.band_10 .level_5,
+.volume_meter.band_10 .level_6,
+.volume_meter.band_10 .level_7,
+.volume_meter.band_10 .level_8,
+.volume_meter.band_10 .level_9 {
+  visibility: visible;
+}

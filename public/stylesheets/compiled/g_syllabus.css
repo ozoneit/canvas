@@ -1,0 +1,82 @@
+/* line 2, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 10px;
+}
+/* line 7, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus a:hover, #syllabus a:focus, #syllabus a:active {
+  color: #4b7092;
+}
+/* line 9, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus thead th {
+  text-align: left;
+  background-color: #444444;
+  color: white;
+  padding: 3px 10px;
+  border-bottom: 1px solid #bbbbbb;
+}
+/* line 16, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus thead th a {
+  font-size: 0.8em;
+  color: #aaaaaa;
+}
+/* line 21, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date td, #syllabus tr.date th {
+  border-bottom: 1px solid #bbbbbb;
+  padding: 4px 10px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #666666;
+}
+/* line 28, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date th.day_date {
+  white-space: nowrap;
+}
+/* line 31, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date td.details {
+  font-size: 1.1em;
+  line-height: 2em;
+  padding: 2px 10px;
+  color: black;
+  text-align: left;
+}
+/* line 38, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date td.details td {
+  border: none;
+  background-color: none;
+  padding: 0;
+  font-size: 1em;
+  text-align: left;
+  color: inherit;
+}
+/* line 45, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date td.details .dates {
+  color: #999999;
+  font-size: 10px;
+  text-align: right;
+}
+/* line 51, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date table.detail_list {
+  width: 100%;
+}
+/* line 55, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date table.detail_list tr.syllabus_assignment .name {
+  font-weight: bold;
+}
+/* line 58, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date table.detail_list td.not_last {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 62, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date.date_passed td, #syllabus tr.date.date_passed th {
+  background-color: #f8f8f8;
+}
+/* line 65, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date.date_passed.details {
+  color: #444444;
+}
+/* line 69, ../../../app/stylesheets/g_syllabus.sass */
+#syllabus tr.date.related td, #syllabus tr.date.related th {
+  background-color: #ddeeff;
+}

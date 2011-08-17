@@ -1,0 +1,220 @@
+/* line 2, ../../../app/stylesheets/g_context_messages.sass */
+.context_message {
+  background-color: transparent;
+}
+/* line 4, ../../../app/stylesheets/g_context_messages.sass */
+.context_message .show_message_body {
+  display: none;
+}
+/* line 6, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read {
+  background-color: transparent;
+}
+/* line 8, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .show_message_body {
+  text-align: right;
+  font-size: 0.8em;
+  display: block;
+}
+/* line 12, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .show_message_body a {
+  color: #888888;
+}
+/* line 14, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .post_date, .context_message.read .sub_title, .context_message.read .sub_title a {
+  color: #aaaaaa;
+}
+/* line 16, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .header_icon, .context_message.read .header_title .title {
+  cursor: pointer;
+}
+/* line 18, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .content {
+  max-height: 1.2em;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* line 22, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .header .header_title .title {
+  font-weight: normal;
+}
+/* line 24, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read .mark_as_read_link {
+  display: none;
+}
+/* line 27, ../../../app/stylesheets/g_context_messages.sass */
+.context_message.read_open .content {
+  max-height: 500px;
+  overflow: auto;
+  cursor: auto;
+}
+
+/* line 32, ../../../app/stylesheets/g_context_messages.sass */
+.context_message .recipients_list_holder {
+  margin-left: 40px;
+}
+
+/* line 34, ../../../app/stylesheets/g_context_messages.sass */
+.context_message .recipients_list {
+  padding: 0;
+  margin: 3px 15px;
+  font-size: 0.8em;
+  list-style-type: none;
+}
+
+/* line 39, ../../../app/stylesheets/g_context_messages.sass */
+.shown_context_message .communication_message {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #aaaaaa;
+}
+
+/* line 47, ../../../app/stylesheets/g_context_messages.sass */
+.recipient .email, .recipient .short_name {
+  margin-left: 10px;
+  font-size: 0.7em;
+}
+
+/* line 50, ../../../app/stylesheets/g_context_messages.sass */
+.recipients_dialog .select_recipients_link.selected {
+  font-weight: bold;
+}
+
+/* line 52, ../../../app/stylesheets/g_context_messages.sass */
+.send_message_form {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+}
+/* line 56, ../../../app/stylesheets/g_context_messages.sass */
+.send_message_form .recipients .recipient, .send_message_form .recipients .no_recipients {
+  float: left;
+}
+/* line 58, ../../../app/stylesheets/g_context_messages.sass */
+.send_message_form .recipients .recipient {
+  border: 1px solid #cccccc;
+  background-color: #e1ecf6;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 1px 2px;
+  margin: 1px 2px;
+}
+/* line 64, ../../../app/stylesheets/g_context_messages.sass */
+.send_message_form .recipients .recipient a {
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 0.8em;
+}
+/* line 68, ../../../app/stylesheets/g_context_messages.sass */
+.send_message_form .context_message {
+  border: 1px solid #cccccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 98%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* line 78, ../../../app/stylesheets/g_context_messages.sass */
+#message_list .inbox_item {
+  display: none;
+}
+/* line 80, ../../../app/stylesheets/g_context_messages.sass */
+#message_list.show_context_message .context_message, #message_list.show_submission_comment .submission_comment, #message_list.show_discussion_entry .discussion_entry {
+  display: block;
+}
+
+/* line 85, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .content {
+  padding-top: 0;
+}
+/* line 87, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .content .inner_content {
+  cursor: pointer;
+}
+/* line 89, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header {
+  padding-bottom: 0;
+}
+/* line 90, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .delete_inbox_item_link, .inbox_item .header .reply_inbox_item_link {
+  opacity: 0.2;
+}
+/* line 93, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .inbox_item_link .user_name {
+  font-weight: normal;
+}
+/* line 95, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .unread_icons {
+  display: inline;
+}
+/* line 97, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .read_icons {
+  display: none;
+}
+/* line 99, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .header_icon {
+  width: 20px;
+  height: 20px;
+}
+/* line 102, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item .header .header_icon.discussion_header_icon, .inbox_item .header .header_icon.submission_header_icon {
+  display: none;
+}
+/* line 107, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item:hover .header .delete_inbox_item_link, .inbox_item:hover .header .reply_inbox_item_link {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 110, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read a.title.inbox_item_link {
+  color: #666666;
+}
+/* line 112, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read .content {
+  color: #888888;
+}
+/* line 114, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read .post_date, .inbox_item.read .sub_title, .inbox_item.read .sub_title a {
+  color: #aaaaaa;
+}
+/* line 116, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read .header .header_title .title {
+  font-weight: normal;
+}
+/* line 118, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read .unread_icons {
+  display: none;
+}
+/* line 120, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.read .read_icons {
+  display: inline;
+}
+/* line 125, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.discussion_entry .header_icon.email_header_icon, .inbox_item.discussion_entry .header_icon.submission_header_icon {
+  display: none;
+}
+/* line 128, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.discussion_entry .header_icon.discussion_header_icon {
+  display: inline;
+}
+/* line 132, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.submission_comment .header_icon.email_header_icon, .inbox_item.submission_comment .header_icon.discussion_header_icon {
+  display: none;
+}
+/* line 135, ../../../app/stylesheets/g_context_messages.sass */
+.inbox_item.submission_comment .header_icon.submission_header_icon {
+  display: inline;
+}

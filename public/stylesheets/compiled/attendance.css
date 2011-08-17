@@ -1,0 +1,200 @@
+/* line 1, ../../../app/stylesheets/attendance.sass */
+#attendance {
+  border-collapse: collapse;
+  border-color: #888888;
+}
+
+/* line 5, ../../../app/stylesheets/attendance.sass */
+#attendance_content .row_header {
+  border-color: #444444;
+  background-color: #eeeeee;
+}
+
+/* line 9, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment, #attendance_content .student {
+  border-color: #444444;
+  background-color: #eeeeee;
+}
+
+/* line 13, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment .assignment_content {
+  padding: 1px 3px;
+}
+
+/* line 16, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment .title a {
+  text-decoration: none;
+  color: #444444;
+}
+
+/* line 20, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment .due_at {
+  font-size: 0.6em;
+  margin-left: 5px;
+  color: #888888;
+  max-width: 115px;
+  white-space: nowrap;
+}
+
+/* line 27, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment .possible {
+  color: #888888;
+  font-size: 0.8em;
+  float: left;
+  margin-left: 5px;
+}
+
+/* line 33, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment .options {
+  float: right;
+  margin-right: 5px;
+}
+
+/* line 38, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment.selected {
+  background-color: #cccccc;
+}
+
+/* line 41, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment.related {
+  background-color: #cccccc;
+}
+
+/* line 44, ../../../app/stylesheets/attendance.sass */
+#attendance_content .student .student_content {
+  padding: 0 0 0 2px;
+}
+
+/* line 47, ../../../app/stylesheets/attendance.sass */
+#attendance_content .student.selected {
+  background-color: #cccccc;
+}
+
+/* line 50, ../../../app/stylesheets/attendance.sass */
+#attendance_content .student.related {
+  background-color: #cccccc;
+}
+
+/* line 53, ../../../app/stylesheets/attendance.sass */
+#attendance_content .student .secondary_identifier {
+  font-size: 0.6em;
+  margin-left: 10px;
+  color: #999999;
+}
+
+/* line 58, ../../../app/stylesheets/attendance.sass */
+#attendance_content .assignment div.title {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 63, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission .blank_attendance {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 67, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.pass .blank_attendance {
+  background: url(/images/graded.png) no-repeat center center;
+}
+
+/* line 70, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.fail .blank_attendance {
+  background: url(/images/not_graded.png) no-repeat center center;
+}
+
+/* line 73, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* line 78, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission .submission_content {
+  padding: 4px;
+}
+
+/* line 81, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.selected {
+  background-color: #eeeeee;
+}
+
+/* line 84, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.related {
+  background-color: #f0f0f0;
+}
+
+/* line 87, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.focus {
+  background-color: #cccccc;
+}
+
+/* line 90, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.saving {
+  background-color: #cccccc;
+}
+
+/* line 93, ../../../app/stylesheets/attendance.sass */
+#attendance_content .submission.loading {
+  background: #eeeeee url(/images/ellipses.png) no-repeat center center;
+}
+
+/* line 96, ../../../app/stylesheets/attendance.sass */
+#attendance_content .options_dropdown img {
+  background: url(/images/menu_option.png) no-repeat center center;
+}
+
+/* line 99, ../../../app/stylesheets/attendance.sass */
+#attendance_content .options_dropdown:hover img {
+  background-image: url(/images/menu_option_hover.png);
+}
+
+/* line 102, ../../../app/stylesheets/attendance.sass */
+#attendance .help_link {
+  color: #888888;
+}
+
+/* line 105, ../../../app/stylesheets/attendance.sass */
+#student_attendance {
+  margin: 5px 20px;
+  width: auto;
+  min-width: 400px;
+  border-collapse: collapse;
+}
+/* line 111, ../../../app/stylesheets/attendance.sass */
+#student_attendance th {
+  text-align: left;
+  background-color: #444444;
+  color: #eeeeee;
+  font-size: 1.2em;
+  min-width: 100px;
+  padding: 1px 5px;
+}
+/* line 119, ../../../app/stylesheets/attendance.sass */
+#student_attendance td {
+  border-bottom: 1px dotted #dddddd;
+  font-size: 1.2em;
+  padding: 2px 15px;
+}
+/* line 124, ../../../app/stylesheets/attendance.sass */
+#student_attendance td .sub_title {
+  font-size: 0.6em;
+  margin-left: 10px;
+}
+/* line 128, ../../../app/stylesheets/attendance.sass */
+#student_attendance td.submission {
+  padding: 1px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 134, ../../../app/stylesheets/attendance.sass */
+#student_attendance tr:hover td {
+  background-color: #eeeeee;
+}
+/* line 137, ../../../app/stylesheets/attendance.sass */
+#student_attendance tr.highlighted td {
+  background-color: #ccddff;
+}

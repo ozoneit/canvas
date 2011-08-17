@@ -1,0 +1,240 @@
+/* line 3, ../../../app/stylesheets/course_details.sass */
+#course_form .course_form {
+  display: none;
+}
+
+/* line 7, ../../../app/stylesheets/course_details.sass */
+#course_form.editing .course_form {
+  display: inline;
+}
+/* line 9, ../../../app/stylesheets/course_details.sass */
+#course_form.editing .course_info, #course_form.editing .edit_course_link, #course_form.editing .move_course_link {
+  display: none;
+}
+
+/* line 13, ../../../app/stylesheets/course_details.sass */
+#course_form .date_entry {
+  width: 100px;
+}
+
+/* line 16, ../../../app/stylesheets/course_details.sass */
+ul.user_list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* line 24, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user {
+  padding-left: 10px;
+  color: #444444;
+  line-height: 1em;
+  -moz-border-radius: 5px;
+  padding: 3px 0 3px 3px;
+  margin-bottom: 2px;
+}
+
+/* line 32, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user:hover {
+  background-color: #eeeeee;
+}
+
+/* line 35, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .email {
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+/* line 39, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .associated_user {
+  display: none;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+/* line 43, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user.observer_enrollment .associated_user {
+  display: block;
+}
+
+/* line 46, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .section {
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+/* line 50, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .short_name {
+  font-size: 0.8em;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+/* line 55, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .associated_user_name:hover {
+  text-decoration: underline;
+}
+
+/* line 58, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .enrollment_type {
+  font-size: 0.8em;
+  margin: -2px 10px 0px;
+}
+
+/* line 62, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .links {
+  float: right;
+  padding-right: 20px;
+  padding-top: 5px;
+  visibility: hidden;
+}
+
+/* line 68, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user .links a {
+  text-decoration: none;
+}
+
+/* line 71, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user:hover .links {
+  float: right;
+  padding-right: 20px;
+  visibility: visible;
+}
+
+/* line 76, ../../../app/stylesheets/course_details.sass */
+ul.user_list li.user.pending {
+  color: #888888;
+  font-style: italic;
+}
+
+/* line 80, ../../../app/stylesheets/course_details.sass */
+h3 .tally {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+/* line 85, ../../../app/stylesheets/course_details.sass */
+#sections {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 500px;
+  list-style-type: none;
+}
+/* line 28, ../../../app/stylesheets/mixins/_misc.sass */
+#sections li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 90, ../../../app/stylesheets/course_details.sass */
+#sections .section {
+  padding: 3px 2px;
+}
+
+/* line 93, ../../../app/stylesheets/course_details.sass */
+#sections .section .delete_section_link,
+#sections .section .edit_section_link,
+#sections .section .cant_delete_section_link {
+  float: right;
+}
+
+/* line 99, ../../../app/stylesheets/course_details.sass */
+#sections .section .section_link {
+  opacity: 0.3;
+  -ms-filter: alpha(Opacity=30);
+  filter: alpha(Opacity=30);
+}
+
+/* line 102, ../../../app/stylesheets/course_details.sass */
+#sections .section:hover {
+  background-color: #eeeeee;
+}
+
+/* line 105, ../../../app/stylesheets/course_details.sass */
+#sections .section:hover .section_link {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+
+/* line 108, ../../../app/stylesheets/course_details.sass */
+#sections .section .users_count {
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+
+/* line 112, ../../../app/stylesheets/course_details.sass */
+#edit_section_form {
+  float: left;
+}
+
+/* line 115, ../../../app/stylesheets/course_details.sass */
+.nav_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #c6c6c6;
+  width: 400px;
+  margin: 20px 0;
+}
+/* line 28, ../../../app/stylesheets/mixins/_misc.sass */
+.nav_list li {
+  margin: 0;
+  padding: 0;
+}
+/* line 122, ../../../app/stylesheets/course_details.sass */
+.nav_list li.enabled:hover span {
+  display: block;
+}
+/* line 125, ../../../app/stylesheets/course_details.sass */
+.nav_list li.navitem {
+  color: #4b7092;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  padding: 4px 0 4px 25px;
+  border: solid #d0d0d0;
+  border-width: 0 1px 1px;
+}
+/* line 133, ../../../app/stylesheets/course_details.sass */
+.nav_list li.navitem:hover, .nav_list li.navitem:focus {
+  background-color: #dee2e4;
+  z-index: 0;
+  position: static;
+  text-decoration: none;
+}
+/* line 138, ../../../app/stylesheets/course_details.sass */
+.nav_list li.navitem:hover .disabled_message, .nav_list li.navitem:focus .disabled_message {
+  display: none;
+}
+/* line 140, ../../../app/stylesheets/course_details.sass */
+.nav_list li.navitem .disabled_message {
+  display: none;
+}
+
+/* line 143, ../../../app/stylesheets/course_details.sass */
+#nav_disabled_list {
+  border-top: 0;
+}
+/* line 145, ../../../app/stylesheets/course_details.sass */
+#nav_disabled_list li.disabled {
+  padding: 4px 0 4px 0px;
+  border-bottom: 1px solid #c6c6c6;
+}
+/* line 148, ../../../app/stylesheets/course_details.sass */
+#nav_disabled_list li.navitem {
+  color: #888888;
+}
+/* line 150, ../../../app/stylesheets/course_details.sass */
+#nav_disabled_list li.navitem .disabled_message {
+  display: block;
+  font-size: 0.8em;
+  padding-left: 10px;
+  line-height: 0.7em;
+  font-style: italic;
+}

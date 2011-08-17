@@ -1,0 +1,225 @@
+/* line 4, ../../../app/stylesheets/g_util_misc.sass */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* line 7, ../../../app/stylesheets/g_util_misc.sass */
+.clear {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 0px;
+  font-size: 0px;
+}
+
+/* line 18, ../../../app/stylesheets/g_util_misc.sass */
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+/* line 25, ../../../app/stylesheets/g_util_misc.sass */
+.clearfix {
+  display: block;
+}
+
+/* line 29, ../../../app/stylesheets/g_util_misc.sass */
+.ui-icon-inline {
+  display: inline;
+  padding-left: 16px;
+}
+
+/* line 33, ../../../app/stylesheets/g_util_misc.sass */
+.accessible_hide {
+  outline: none;
+  text-indent: -9999px;
+  display: inline-block;
+}
+
+/* line 38, ../../../app/stylesheets/g_util_misc.sass */
+.unstyled_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 42, ../../../app/stylesheets/g_util_misc.sass */
+.unstyled_list.wide_spacing {
+  line-height: 1.7em;
+}
+
+/* line 57, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip {
+  position: relative;
+  z-index: 2;
+  outline: none;
+}
+/* line 61, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip:hover {
+  text-decoration: none;
+}
+/* line 63, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip:hover .tooltip_wrap, .tooltip:hover .tooltip_text {
+  visibility: visible;
+}
+/* line 65, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip:active {
+  outline: none;
+  text-decoration: none;
+}
+/* line 68, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip:active .tooltip_wrap, .tooltip:active .tooltip_text {
+  visibility: visible;
+}
+/* line 70, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip .tooltip_wrap, .tooltip .tooltip_text {
+  display: block;
+  visibility: hidden;
+}
+/* line 73, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip .tooltip_wrap {
+  background: url(/images/tooltip_carat.png) no-repeat left bottom;
+  bottom: 15px;
+  padding-bottom: 3px;
+  position: absolute;
+  opacity: 0.9;
+  -ms-filter: alpha(Opacity=90);
+  filter: alpha(Opacity=90);
+}
+/* line 80, ../../../app/stylesheets/g_util_misc.sass */
+.ie .tooltip .tooltip_wrap {
+  bottom: 25px;
+}
+/* line 82, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip .tooltip_text {
+  background-color: #444444;
+  background-position: left bottom;
+  color: white;
+  left: 0px;
+  max-width: 250px;
+  padding: 2px 7px 2px;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 93, ../../../app/stylesheets/g_util_misc.sass */
+.tooltip .right {
+  right: 0px;
+  background-position: right bottom;
+}
+
+/* line 99, ../../../app/stylesheets/g_util_misc.sass */
+.ui-dialog-no-close-button .ui-dialog-titlebar-close {
+  display: none;
+}
+
+/* line 102, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox {
+  background: url(/images/six_state_checkbox.png) no-repeat left top;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+/* line 109, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-disabled-checked {
+  background-position: 0 -109px;
+  cursor: auto;
+}
+
+/* line 112, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-disabled-unchecked {
+  background-position: 0 -162px;
+  cursor: auto;
+}
+
+/* line 115, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-default-checked {
+  background-position: 0 -215px;
+}
+
+/* line 117, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-default-unchecked {
+  background-position: 0 -268px;
+}
+
+/* line 119, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-checked {
+  background-position: 0 0px;
+}
+
+/* line 121, ../../../app/stylesheets/g_util_misc.sass */
+.six-checkbox-unchecked {
+  background-position: 0 -53px;
+}
+
+/* line 126, ../../../app/stylesheets/g_util_misc.sass */
+table.zebra-stripes tbody th, table.zebra-stripes tbody td {
+  border-top: 1px solid #a6c9e2;
+}
+/* line 128, ../../../app/stylesheets/g_util_misc.sass */
+table.zebra-stripes tbody th {
+  text-align: left;
+  padding-left: 4px;
+}
+/* line 131, ../../../app/stylesheets/g_util_misc.sass */
+table.zebra-stripes tbody tr.odd {
+  background: #f5f8f9 url(/images/jqueryui/ui-bg_inset-hard_100_f5f8f9_1x100.png) repeat-x 50%;
+  color: #030f1b;
+}
+
+/* line 135, ../../../app/stylesheets/g_util_misc.sass */
+.close-link {
+  display: block;
+  background: url(/images/jqueryui/icon_sprite.png) 0px -16px no-repeat;
+  height: 16px;
+  width: 16px;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+/* line 142, ../../../app/stylesheets/g_util_misc.sass */
+.close-link:hover, .close-link:focus {
+  background-position: -16px -16px;
+}
+
+/* line 151, ../../../app/stylesheets/g_util_misc.sass */
+.centered-block {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/* line 156, ../../../app/stylesheets/g_util_misc.sass */
+.centered-block .centered-block-wrap {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+/* line 164, ../../../app/stylesheets/g_util_misc.sass */
+.centered-block .centered-block-wrap .centered-block-inner {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  text-align: left;
+}

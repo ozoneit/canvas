@@ -1,0 +1,420 @@
+/* line 3, ../../../app/stylesheets/instructure_eportfolio.sass */
+a {
+  display: inline;
+}
+
+/* line 7, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar #edit_page_sidebar {
+  display: none;
+}
+/* line 9, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar .preview_content {
+  display: none;
+}
+/* line 11, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar .failed {
+  display: none;
+}
+/* line 15, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing .edit_content_link {
+  display: none;
+}
+/* line 17, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing .failed {
+  display: block;
+}
+/* line 19, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing #section_pages {
+  display: none;
+}
+/* line 21, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing #edit_page_sidebar {
+  display: block;
+}
+/* line 24, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing.previewing .form_content {
+  display: none;
+}
+/* line 26, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing.previewing .preview_content {
+  display: block;
+}
+/* line 28, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_sidebar.editing.previewing .failed {
+  display: none;
+}
+
+/* line 32, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_sidebar .header {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid #888888;
+}
+/* line 36, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_sidebar ul {
+  margin-top: 0;
+  padding-left: 30px;
+}
+
+/* line 41, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section {
+  position: relative;
+}
+/* line 43, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .links, #page_content .section .section_type_name, #page_content .section .move_link {
+  display: none;
+}
+/* line 47, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section {
+  border: 1px dashed #888888;
+  padding: 5px;
+  margin: 10px 0;
+  background-color: white;
+}
+/* line 53, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section .section_type_name {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  top: 2px;
+  left: 25px;
+}
+/* line 61, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section:hover .links {
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+/* line 67, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section .section_content {
+  display: none;
+}
+/* line 70, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section:hover .move_link {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: white;
+  padding: 2px;
+  cursor: move;
+}
+/* line 79, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing .section {
+  padding-top: 25px;
+  text-align: center;
+}
+/* line 83, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing textarea.edit_section {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 88, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content.editing table.mceLayout {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 93, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form div.disabled {
+  display: none;
+}
+/* line 96, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form div.form_content {
+  display: none;
+}
+/* line 99, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form div.preview_content {
+  display: none;
+}
+/* line 103, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form.editing div.form_content {
+  display: block;
+  margin: 5px 2px;
+}
+/* line 107, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form.editing.previewing div.preview_content {
+  display: block;
+}
+/* line 109, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form.editing.previewing div.form_content {
+  display: none;
+}
+/* line 111, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form.editing.previewing div.section {
+  border-width: 0;
+  background-color: transparent;
+  padding: 0;
+  text-align: left;
+}
+/* line 116, ../../../app/stylesheets/instructure_eportfolio.sass */
+#edit_page_form.editing.previewing .section:hover .move_link, #edit_page_form.editing.previewing .section:hover .links, #edit_page_form.editing.previewing .section_type_name {
+  display: none;
+}
+
+/* line 119, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_section_blank {
+  display: none;
+}
+
+/* line 122, ../../../app/stylesheets/instructure_eportfolio.sass */
+.submission_list, .submission_list.instTree {
+  padding-left: 0px;
+  max-height: 150px;
+  overflow: auto;
+  width: auto;
+  margin: 5px 50px;
+  text-align: left;
+}
+
+/* line 130, ../../../app/stylesheets/instructure_eportfolio.sass */
+.submission_list .already_used {
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+/* line 134, ../../../app/stylesheets/instructure_eportfolio.sass */
+#recent_submissions {
+  max-height: none;
+  overflow: none;
+}
+
+/* line 138, ../../../app/stylesheets/instructure_eportfolio.sass */
+ul.submission_list.instTree li.submission.leaf {
+  padding: 3px 30px;
+  background-position: 9px center;
+}
+
+/* line 144, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .attachment {
+  font-size: 1.1em;
+}
+/* line 147, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .attachment .filename {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 151, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .attachment img {
+  max-width: 100%;
+}
+/* line 154, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .file_list {
+  text-align: left;
+}
+/* line 157, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section .file_list .instTree .leaf.active {
+  background-color: #dddddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 162, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section.read_only div.section_content {
+  display: block;
+}
+/* line 165, ../../../app/stylesheets/instructure_eportfolio.sass */
+#page_content .section.read_only div.form_content {
+  display: none;
+}
+
+/* line 169, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages .section_header {
+  border-bottom: 1px solid #888888;
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+}
+/* line 175, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages .section_header .links {
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+/* line 181, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list {
+  padding-left: 0;
+  margin-top: 5px;
+  list-style-type: none;
+}
+/* line 186, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list .page.current a {
+  font-weight: bold;
+}
+/* line 189, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list .page a:hover {
+  text-decoration: underline;
+}
+/* line 192, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list .page .remove_page_link {
+  display: none;
+}
+/* line 194, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list .page .edit_page_link {
+  display: none;
+}
+/* line 197, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list.editing .page .remove_page_link {
+  display: inline;
+  float: right;
+  font-weight: normal;
+}
+/* line 201, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages #page_list.editing .page .edit_page_link {
+  display: inline;
+}
+/* line 203, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages .editing_image {
+  display: none;
+}
+/* line 206, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages .editing_box {
+  display: none;
+}
+/* line 208, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages .add_page_link {
+  display: none;
+}
+/* line 211, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing .editing_image {
+  display: inline;
+  opacity: 0.3;
+  -ms-filter: alpha(Opacity=30);
+  filter: alpha(Opacity=30);
+}
+/* line 214, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing li:hover .editing_image {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 216, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing li.page .name {
+  cursor: move;
+}
+/* line 218, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing .editing_box {
+  display: block;
+}
+/* line 220, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing .displaying_box {
+  display: none;
+}
+/* line 222, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_pages.editing .add_page_link {
+  display: block;
+}
+
+/* line 225, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #c6c6c6;
+}
+/* line 232, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list li .section_url {
+  color: #4b7092;
+  display: block;
+  font-size: 14px;
+  padding: 5px 0 5px 25px;
+  border-bottom: 1px solid #d0d0d0;
+  text-shadow: 1px 2px 3px #cbcbcb;
+}
+/* line 240, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list li .section_url:hover, #section_list li .section_url:focus {
+  background-color: #dee2e4;
+  z-index: 0;
+  position: static;
+  text-decoration: none;
+}
+/* line 247, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list li .section_url a.name {
+  display: block;
+}
+/* line 250, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list li.active .section_url {
+  position: relative;
+  background-color: white;
+  margin-right: -1px;
+  position: relative;
+  z-index: 11;
+  padding: 7px 0 7px 23px;
+  font-size: 17px;
+}
+/* line 261, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list li.hidden .section_url {
+  color: #aaaaaa;
+}
+
+/* line 265, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list .remove_section_link {
+  float: right;
+  padding-right: 5px;
+  display: none;
+}
+/* line 269, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list .edit_section_link {
+  display: none;
+}
+/* line 273, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing li.active .section_url {
+  padding-left: 5px;
+}
+/* line 275, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing li {
+  cursor: pointer;
+  font-size: 0.9em;
+}
+/* line 278, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing li a.name {
+  display: inline;
+}
+/* line 280, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing .section_url {
+  padding-left: 5px;
+}
+/* line 282, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing .remove_section_link {
+  display: inline;
+  margin-left: 3px;
+  cursor: pointer;
+}
+/* line 286, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing .edit_section_link {
+  display: inline;
+  opacity: 0.3;
+  -ms-filter: alpha(Opacity=30);
+  filter: alpha(Opacity=30);
+}
+/* line 289, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing li.section:hover .edit_section_link {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 291, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list.editing li.section .name {
+  cursor: move;
+}
+
+/* line 295, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list_manage .editing_item {
+  display: none;
+}
+/* line 298, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list_manage.editing .editing_item {
+  display: inline;
+}
+/* line 300, ../../../app/stylesheets/instructure_eportfolio.sass */
+#section_list_manage.editing .displaying_item {
+  display: none;
+}

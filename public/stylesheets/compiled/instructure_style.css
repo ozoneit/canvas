@@ -1,0 +1,308 @@
+/* Resets default browser CSS.
+ * pulled from blueprint's css reset.
+ * Based on Eric Meyer's reset http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+/* line 5, ../../../app/stylesheets/g_reset.sass */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 23, ../../../app/stylesheets/g_reset.sass */
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  display: block;
+}
+
+/* line 28, ../../../app/stylesheets/g_reset.sass */
+body {
+  line-height: 1.5;
+}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+/* line 32, ../../../app/stylesheets/g_reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 35, ../../../app/stylesheets/g_reset.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 38, ../../../app/stylesheets/g_reset.sass */
+table, td, th {
+  vertical-align: middle;
+}
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+/* line 42, ../../../app/stylesheets/g_reset.sass */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 44, ../../../app/stylesheets/g_reset.sass */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* Remove annoying border on linked images. */
+/* line 48, ../../../app/stylesheets/g_reset.sass */
+a img {
+  border: 0 none;
+}
+
+/* line 58, ../../../app/stylesheets/g_reset.sass */
+img {
+  vertical-align: text-bottom;
+}
+
+/* line 2, ../../../app/stylesheets/base/_native.sass */
+a:link, a:visited {
+  color: #4b7092;
+  text-decoration: none;
+}
+/* line 8, ../../../app/stylesheets/base/_native.sass */
+a:link:-moz-read-write {
+  color: #4b7092 !important;
+  text-decoration: none !important;
+}
+/* line 11, ../../../app/stylesheets/base/_native.sass */
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+/* line 15, ../../../app/stylesheets/base/_native.sass */
+a.external:hover, a.external:focus, a.external:active {
+  text-decoration: none;
+}
+/* line 17, ../../../app/stylesheets/base/_native.sass */
+a.external:hover span, a.external:focus span, a.external:active span {
+  text-decoration: underline;
+}
+/* line 19, ../../../app/stylesheets/base/_native.sass */
+a.external:hover span.ui-icon-extlink, a.external:focus span.ui-icon-extlink, a.external:active span.ui-icon-extlink {
+  text-decoration: none;
+}
+/* line 21, ../../../app/stylesheets/base/_native.sass */
+a.external span.ui-icon-extlink {
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* line 26, ../../../app/stylesheets/base/_native.sass */
+.content_underline_links a {
+  text-decoration: underline;
+}
+/* line 28, ../../../app/stylesheets/base/_native.sass */
+.content_underline_links a.external {
+  text-decoration: none !important;
+}
+/* line 30, ../../../app/stylesheets/base/_native.sass */
+.content_underline_links a.external span {
+  text-decoration: underline;
+}
+/* line 32, ../../../app/stylesheets/base/_native.sass */
+.content_underline_links a.external span.ui-icon-extlink {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* Tables
+ * -------------------------------------------------------------- */
+/* line 40, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+/* line 43, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table th {
+  font-weight: bold;
+}
+/* line 45, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table th, table.stylized-table td, table.stylized-table caption {
+  padding: 2px 5px 2px 2px;
+}
+/* line 47, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table tr.even td {
+  background: #e5ecf9;
+}
+/* line 49, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table tfoot {
+  font-style: italic;
+}
+/* line 51, ../../../app/stylesheets/base/_native.sass */
+table.stylized-table caption {
+  background: #eeeeee;
+}
+
+/* Sets up some sensible default typography. */
+/* Default font settings.
+ * The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+/* line 5, ../../../app/stylesheets/base/_typography.sass */
+html {
+  font-size: 100.01%;
+}
+
+/* line 7, ../../../app/stylesheets/base/_typography.sass */
+body {
+  font-size: 75%;
+  color: #333333;
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+/* Headings
+ * -------------------------------------------------------------- */
+/* line 14, ../../../app/stylesheets/base/_typography.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #444444;
+}
+
+/* line 17, ../../../app/stylesheets/base/_typography.sass */
+h1, h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+/* line 20, ../../../app/stylesheets/base/_typography.sass */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+/* line 24, ../../../app/stylesheets/base/_typography.sass */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+/* line 28, ../../../app/stylesheets/base/_typography.sass */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+/* line 32, ../../../app/stylesheets/base/_typography.sass */
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 36, ../../../app/stylesheets/base/_typography.sass */
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* Text elements
+ * -------------------------------------------------------------- */
+/* line 41, ../../../app/stylesheets/base/_typography.sass */
+p {
+  margin: 0 0 1.5em;
+}
+/* line 44, ../../../app/stylesheets/base/_typography.sass */
+p img.left {
+  float: left;
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+/* line 48, ../../../app/stylesheets/base/_typography.sass */
+p img.right {
+  float: right;
+  margin: 1.5em 0 1.5em 1.5em;
+}
+
+/* line 52, ../../../app/stylesheets/base/_typography.sass */
+blockquote {
+  margin: 1.5em;
+  color: #666666;
+  font-style: italic;
+}
+
+/* line 57, ../../../app/stylesheets/base/_typography.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 60, ../../../app/stylesheets/base/_typography.sass */
+em {
+  font-style: italic;
+}
+
+/* line 63, ../../../app/stylesheets/base/_typography.sass */
+dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 67, ../../../app/stylesheets/base/_typography.sass */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 70, ../../../app/stylesheets/base/_typography.sass */
+abbr, acronym {
+  border-bottom: 1px dotted #666666;
+}
+
+/* line 73, ../../../app/stylesheets/base/_typography.sass */
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 77, ../../../app/stylesheets/base/_typography.sass */
+del {
+  color: #666666;
+}
+
+/* line 80, ../../../app/stylesheets/base/_typography.sass */
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 83, ../../../app/stylesheets/base/_typography.sass */
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+/* line 7, ../../../app/stylesheets/instructure_style.sass */
+table {
+  border-collapse: collapse;
+}
+
+/* line 9, ../../../app/stylesheets/instructure_style.sass */
+td {
+  padding: 2px;
+  min-width: 20px;
+}
+/* line 12, ../../../app/stylesheets/instructure_style.sass */
+td p {
+  margin-bottom: 0;
+}
+
+/* line 17, ../../../app/stylesheets/instructure_style.sass */
+table.borderless, table.borderless td {
+  border: 1px dashed #888888;
+}

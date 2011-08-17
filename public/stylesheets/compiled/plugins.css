@@ -1,0 +1,44 @@
+/* line 1, ../../../app/stylesheets/plugins.sass */
+table.plugins {
+  border-collapse: collapse;
+}
+/* line 3, ../../../app/stylesheets/plugins.sass */
+table.plugins th {
+  border-bottom: 1px dotted #888888;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 5px;
+}
+/* line 8, ../../../app/stylesheets/plugins.sass */
+table.plugins td {
+  border-bottom: 1px dotted #cccccc;
+  padding: 2px 5px;
+}
+/* line 11, ../../../app/stylesheets/plugins.sass */
+table.plugins td.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-right: 10px;
+}
+/* line 15, ../../../app/stylesheets/plugins.sass */
+table.plugins td.description, table.plugins td.tag {
+  font-size: 0.8em;
+}
+
+/* line 22, ../../../app/stylesheets/plugins.sass */
+#settings table td.sub h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+/* line 25, ../../../app/stylesheets/plugins.sass */
+#settings table td.sub p {
+  font-size: 0.8em;
+}
+/* line 27, ../../../app/stylesheets/plugins.sass */
+#settings table td.sub p:last-child {
+  margin-bottom: 5px;
+}
+/* line 29, ../../../app/stylesheets/plugins.sass */
+#settings table td .hint {
+  font-size: 0.8em;
+}

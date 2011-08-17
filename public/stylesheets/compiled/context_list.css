@@ -1,0 +1,58 @@
+/* line 4, ../../../app/stylesheets/context_list.sass */
+ul.context_list li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+/* line 11, ../../../app/stylesheets/context_list.sass */
+ul.context_list li .unenroll_link {
+  opacity: 0.3;
+  -ms-filter: alpha(Opacity=30);
+  filter: alpha(Opacity=30);
+}
+/* line 14, ../../../app/stylesheets/context_list.sass */
+ul.context_list li:hover {
+  background-color: #eeeeee;
+}
+/* line 16, ../../../app/stylesheets/context_list.sass */
+ul.context_list li:hover .unenroll_link {
+  opacity: 1;
+  -ms-filter: alpha(Opacity=100);
+  filter: alpha(Opacity=100);
+}
+/* line 19, ../../../app/stylesheets/context_list.sass */
+ul.context_list li .invited:hover {
+  background-color: transparent;
+}
+/* line 22, ../../../app/stylesheets/context_list.sass */
+ul.context_list li a {
+  font-weight: bold;
+}
+/* line 25, ../../../app/stylesheets/context_list.sass */
+ul.context_list li a .subtitle {
+  color: #888888;
+}
+/* line 28, ../../../app/stylesheets/context_list.sass */
+ul.context_list li .reminder {
+  margin-left: 0;
+}
+/* line 32, ../../../app/stylesheets/context_list.sass */
+ul.context_list .unpublished a {
+  color: #888888;
+  font-weight: normal;
+}
+/* line 36, ../../../app/stylesheets/context_list.sass */
+ul.context_list .name {
+  display: block;
+  font-size: 1.5em;
+}
+/* line 40, ../../../app/stylesheets/context_list.sass */
+ul.context_list .subtitle {
+  display: block;
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 0.8em;
+  line-height: 0.8em;
+}

@@ -1,0 +1,52 @@
+/* line 2, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section {
+  margin: 1em 2em;
+}
+/* line 5, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 9, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section table td, #gradebook_importer_resolution_section table th {
+  border: 1px solid #eeeeee;
+  padding: 0.2em 20px;
+}
+/* line 13, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section select {
+  text-align: center;
+}
+/* line 16, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section select option {
+  text-align: left;
+}
+/* line 19, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section select .new {
+  color: green;
+}
+/* line 22, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section select .ignore {
+  color: red;
+}
+/* line 25, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section .points_possible_section {
+  opacity: 0;
+  -ms-filter: alpha(Opacity=0);
+  filter: alpha(Opacity=0);
+}
+/* line 28, ../../../app/stylesheets/gradebook_uploads.sass */
+#gradebook_importer_resolution_section input.points_possible {
+  width: 50px;
+}
+
+/* line 32, ../../../app/stylesheets/gradebook_uploads.sass */
+.cell-title {
+  font-weight: bold;
+}
+
+/* line 36, ../../../app/stylesheets/gradebook_uploads.sass */
+#assignments_without_changes_alert {
+  color: orange;
+  font-size: 0.8em;
+  margin-left: 100px;
+}

@@ -1,0 +1,111 @@
+/* line 3, ../../../app/stylesheets/g_wiki.sass */
+#wiki_show_view_main {
+  overflow: auto;
+}
+
+/* line 6, ../../../app/stylesheets/g_wiki.sass */
+#last_edited_by {
+  border: solid #eeeeee;
+  border-width: 0 0 1px 0;
+  font-size: 0.7em;
+  margin-bottom: 10px;
+  margin-right: 2px;
+}
+/* line 12, ../../../app/stylesheets/g_wiki.sass */
+#last_edited_by h3 {
+  margin: 0px 20px 10px;
+  font-size: 1.5em;
+  color: #444444;
+}
+
+/* line 17, ../../../app/stylesheets/g_wiki.sass */
+#page_history {
+  float: right;
+}
+
+/* line 19, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments {
+  margin-top: 50px;
+}
+/* line 21, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments textarea {
+  width: 97%;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #aaaaaa;
+  height: 50px;
+}
+/* line 26, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment {
+  margin-bottom: 20px;
+}
+/* line 28, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .commenting {
+  display: none;
+}
+/* line 31, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment.commenting .commenting {
+  display: block;
+}
+/* line 33, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment.commenting .formatted_body .not_commenting {
+  display: none;
+}
+/* line 35, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .header {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 2px;
+  color: #888888;
+  font-size: 0.8em;
+}
+/* line 40, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .header .user_name {
+  float: left;
+}
+/* line 42, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .header .links {
+  float: right;
+}
+/* line 44, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .header .links .delete_comment_link {
+  display: none;
+}
+/* line 48, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment.deletable_comment .header .links .delete_comment_link {
+  display: inline;
+  opacity: 0.5;
+}
+/* line 52, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment.deletable_comment .header:hover .links .delete_comment_link {
+  opacity: 1;
+}
+/* line 54, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .formatted_body {
+  margin: 0 10px;
+}
+/* line 56, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_comments .wiki_page_comment .formatted_body .add_comment_link {
+  width: 97%;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #aaaaaa;
+  cursor: text;
+  display: block;
+  padding: 2px 4px;
+  text-decoration: none;
+  color: #888888;
+}
+
+/* line 68, ../../../app/stylesheets/g_wiki.sass */
+#wiki_page_body_parent.mceEditor {
+  display: block;
+  overflow: auto;
+}

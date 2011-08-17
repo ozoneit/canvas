@@ -1,0 +1,13 @@
+/* line 2, ../../../app/stylesheets/g_content_imports.sass */
+.content-imports-wrapper #zip_file {
+  font-size: 1.3em;
+}
+
+/* line 5, ../../../app/stylesheets/g_content_imports.sass */
+.content-imports-instructions {
+  margin: 20px 0;
+}
+/* line 7, ../../../app/stylesheets/g_content_imports.sass */
+.content-imports-instructions a {
+  font-size: 1.2em;
+}

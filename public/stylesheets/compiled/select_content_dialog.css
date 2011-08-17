@@ -1,0 +1,37 @@
+/* line 4, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools {
+  vertical-align: top;
+  padding: 10px 0;
+  max-height: 150px;
+  overflow: auto;
+}
+/* line 9, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools .tool {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 2px 5px;
+  border-bottom: 1px dotted #cccccc;
+  cursor: pointer;
+}
+/* line 14, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools .tool .name {
+  font-weight: bold;
+}
+/* line 16, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools .tool .description {
+  max-height: 2.9em;
+  overflow: hidden;
+  font-size: 0.8em;
+}
+/* line 20, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools .tool:hover {
+  background-color: #eeeeee;
+}
+/* line 22, ../../../app/stylesheets/select_content_dialog.sass */
+#select_context_content_dialog #context_external_tools_select .tools .tool.selected {
+  background-color: #dddddd;
+}

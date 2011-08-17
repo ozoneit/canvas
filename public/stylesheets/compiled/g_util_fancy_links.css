@@ -1,0 +1,658 @@
+/* line 10, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.external_link {
+  padding-right: 15px;
+  background: no-repeat right center;
+  background-image: url(/images/popout.png);
+}
+
+/* line 14, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.equella_content_link {
+  padding-left: 17px;
+  background: no-repeat left center;
+  background-image: url(/images/equella_icon.png);
+}
+
+/* line 18, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.add {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/add.png);
+}
+
+/* line 21, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.add-small {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  padding-left: 15px;
+  background-image: url(/images/add-small.png);
+}
+
+/* line 25, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.add-feed {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/add_feed.png);
+}
+
+/* line 28, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.add-file {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/file.png);
+}
+
+/* line 31, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.announcement-icon-small {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/announcement_icon_small.png);
+}
+
+/* line 34, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.atom {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/atom.png);
+}
+
+/* line 37, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.media-comment {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/audio_comment.gif);
+}
+
+/* line 40, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.back {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/back.png);
+}
+
+/* line 43, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.calendar {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/due_date_icon.png);
+}
+
+/* line 46, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.collapse {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/collapse.png);
+}
+
+/* line 49, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.delete {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/delete.png);
+}
+
+/* line 52, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.delete-circle {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/delete_circle.png);
+}
+
+/* line 55, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.discussion-icon-small {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/discussion_icon_small.png);
+}
+
+/* line 58, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.discussion-topic {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/discussion_topic.png);
+  padding-left: 30px;
+}
+
+/* line 62, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.download {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/download.png);
+}
+
+/* line 65, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.download-small {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  padding-left: 15px;
+  background-image: url(/images/download-small.png);
+}
+
+/* line 69, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.edit {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/edit.png);
+}
+
+/* line 72, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.email {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/email.png);
+}
+
+/* line 75, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.expand {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/expand.png);
+}
+
+/* line 78, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.feed {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/atom.png);
+}
+
+/* line 81, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.file-multiple {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/file_multiple.png);
+}
+
+/* line 84, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.file_big {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/file_big.png);
+}
+
+/* line 87, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.folder-closed {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/folder_closed.png);
+}
+
+/* line 90, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.forward {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/forward.png);
+}
+
+/* line 93, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.find {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/find.png);
+}
+
+/* line 96, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.grading_dim {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/grading_icon_gray.png);
+}
+
+/* line 99, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.grading {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/grading_icon.png);
+}
+
+/* line 102, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.help {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/help.png);
+}
+
+/* line 105, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.history {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/history.png);
+}
+
+/* line 108, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.information {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  font-size: 0.8em;
+  background-image: url(/images/information.png);
+}
+
+/* line 112, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.link {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/link.png);
+}
+
+/* line 115, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.lock {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/lock.png);
+}
+
+/* line 118, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.pass {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/pass.png);
+}
+
+/* line 121, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.pending-review {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/pending_review.png);
+}
+
+/* line 124, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.quiz {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/quiz.png);
+}
+
+/* line 127, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.refresh {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/ajax-reload.gif);
+}
+
+/* line 130, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.refreshing {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/ajax-reload-animated.gif);
+}
+
+/* line 133, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.rename {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/rename.png);
+}
+
+/* line 136, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.reply {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/reply.png);
+}
+
+/* line 139, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.rubric {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/rubric.png);
+}
+
+/* line 142, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.small-calendar {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/ical.png);
+}
+
+/* line 145, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.text-entry {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/text_entry.png);
+}
+
+/* line 148, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.warning {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/warning.png);
+}
+
+/* line 151, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.word-bubble {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/word_bubble.png);
+}
+
+/* line 154, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.unlock {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/unlock.png);
+}
+
+/* line 157, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.icon-grading {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/grading_icon.png);
+}
+
+/* line 160, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.icon-grading-gray {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/grading_icon_gray.png);
+}
+
+/* line 163, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.icon-clock {
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+  padding: 1px 0 1px 20px;
+  display: inline-block;
+  background-image: url(/images/icon-clock.png);
+}
+
+/* line 166, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.admin {
+  color: #d15545;
+}
+
+/* line 177, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.file {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white.png") !important;
+}
+/* line 180, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.pdf {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_acrobat.png") !important;
+}
+/* line 184, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.image {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_picture.png") !important;
+}
+/* line 188, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.spreadsheet {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_excel.png") !important;
+}
+/* line 192, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.xls {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_excel.png") !important;
+}
+/* line 196, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.word, a.doc {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_word.png") !important;
+}
+/* line 200, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.ppt {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_powerpoint.png") !important;
+}
+/* line 204, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.zip {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_zip.png") !important;
+}
+/* line 208, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.html {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_world.png") !important;
+}
+/* line 212, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.code {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_code.png") !important;
+}
+/* line 216, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.text {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_text.png") !important;
+}
+/* line 220, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.audio {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/sound_none.png") !important;
+}
+/* line 224, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.video {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_camera.png") !important;
+}
+/* line 228, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.flash {
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 10px;
+  padding: 1px 0 2px 20px;
+  background-image: url("/images/inst_tree/file_types/page_white_flash.png") !important;
+}
+
+/* line 232, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.no-hover:hover, a.no-hover:focus {
+  background-color: transparent;
+}
+
+/* line 234, ../../../app/stylesheets/g_util_fancy_links.sass */
+a.no-underline, a.no-underline:hover, a.no-underline:focus {
+  text-decoration: none;
+}
+
+/* line 248, ../../../app/stylesheets/g_util_fancy_links.sass */
+.atr-reply {
+  display: inline-block;
+  text-indent: 999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/reply.png);
+}
+
+/* line 251, ../../../app/stylesheets/g_util_fancy_links.sass */
+.atr-edit {
+  display: inline-block;
+  text-indent: 999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/edit.png);
+}
+
+/* line 254, ../../../app/stylesheets/g_util_fancy_links.sass */
+.atr-delete {
+  display: inline-block;
+  text-indent: 999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/delete.png);
+}

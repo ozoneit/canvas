@@ -1,0 +1,29 @@
+/* line 2, ../../../app/stylesheets/user_logins.sass */
+#login_information > table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 5, ../../../app/stylesheets/user_logins.sass */
+#login_information tr.login > th, #login_information tr.login > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: top;
+}
+/* line 10, ../../../app/stylesheets/user_logins.sass */
+#login_information .details {
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+/* line 13, ../../../app/stylesheets/user_logins.sass */
+#login_information .account {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+/* line 16, ../../../app/stylesheets/user_logins.sass */
+#login_information .links {
+  white-space: nowrap;
+  text-align: right;
+  font-size: 0.8em;
+  padding-left: 30px;
+}

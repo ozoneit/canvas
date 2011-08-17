@@ -1,0 +1,85 @@
+/* line 1, ../../../app/stylesheets/moderate_quiz.sass */
+#students {
+  border-collapse: collapse;
+}
+/* line 4, ../../../app/stylesheets/moderate_quiz.sass */
+#students thead td, #students thead th {
+  border-bottom: 1px dotted #aaaaaa;
+  padding: 3px 8px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 9, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student {
+  border-bottom: 1px dotted #dddddd;
+}
+/* line 11, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student td, #students .student th {
+  padding: 3px 5px;
+  vertical-align: top;
+}
+/* line 14, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .number {
+  text-align: center;
+}
+/* line 16, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .time_holder {
+  color: #888888;
+  font-size: 0.8em;
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 21, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .time_holder .extend_time_link {
+  display: none;
+}
+/* line 23, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .extra_time_allowed {
+  color: #888888;
+  font-size: 0.8em;
+  padding-left: 15px;
+}
+/* line 27, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .score_holder {
+  text-align: center;
+}
+/* line 29, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student .links {
+  text-align: right;
+}
+/* line 32, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student.in_progress .time_holder {
+  color: #222222;
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 10px;
+}
+/* line 38, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student.in_progress.extendable .extend_time_link {
+  display: inline;
+  padding-left: 5px;
+}
+/* line 42, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student.manually_unlocked .unlocked {
+  display: inline;
+}
+/* line 44, ../../../app/stylesheets/moderate_quiz.sass */
+#students .student:hover {
+  background-color: #eeeeee;
+}
+
+/* line 48, ../../../app/stylesheets/moderate_quiz.sass */
+#moderate_student_dialog table td {
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+/* line 52, ../../../app/stylesheets/moderate_quiz.sass */
+#extend_time_dialog table {
+  margin: 10px 20px 15px;
+}
+/* line 54, ../../../app/stylesheets/moderate_quiz.sass */
+#extend_time_dialog table th {
+  font-weight: bold;
+  padding-right: 5px;
+}
